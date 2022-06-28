@@ -6,14 +6,19 @@ https://www.lomcn.org/forum/threads/functional-official-3g-client-source-code.10
 Hi guys. That's a long time since I last posted something here. Some time ago someone linked leaked source code for the client here and I decided to check it out. After a few hours of hacking I got it to compile with MSVC 2019 and work with 3.55 files, which was a little surprising TBH. The client does not need the Holley launcher too. The source code is buggy though, and it would require some effort to make it run smoothly. I'm wondering if there's anyone who would appreciate me spending some time on that project. Especially so given we already have something to work with with the Zircon files. I would not think twice about investing some time into it if there was source code for the server too, but unfortunately there isn't. Not even the eiserver.exe with an injected DLL type of thing like holley or king. So it seems kind of pointless. What do you guys think?
 
 These clients don't really have assassin, but they mention it:
-Code:
+```c
 #define _JOB_GUNGSA                    3
 #define _JOB_DOSA                    2
 #define _JOB_SULSA                    1
 #define _JOB_JUNSA                    0
+```
+
 or
-Code:
+
+```c
 #define _CHR_CHR_CREATE_ARCHER            5
+```
+
 There isn't anything besides character creation.
 
 leaked in 2008?
