@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WindHorn - Win32 Test Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSP28.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /FR"WindHorn___Win32_Test_Debug/" /Fp"WindHorn___Win32_Test_Debug/WindHorn.pch" /Yu"stdafx.h" /Fo"WindHorn___Win32_Test_Debug/" /Fd"WindHorn___Win32_Test_Debug/" /FD /GZ /c 
+"H:\Mir3 Source\Mir3Korea\WindHorn\RegHandler.cpp"
+"H:\Mir3 Source\Mir3Korea\WindHorn\WHDefProcess.cpp"
+"H:\Mir3 Source\Mir3Korea\WindHorn\WHDXGraphic.cpp"
+"H:\Mir3 Source\Mir3Korea\WindHorn\WHImage.cpp"
+"H:\Mir3 Source\Mir3Korea\WindHorn\WHSurface.cpp"
+"H:\Mir3 Source\Mir3Korea\WindHorn\WHWilImage.cpp"
+"H:\Mir3 Source\Mir3Korea\WindHorn\WHWilTexture.cpp"
+"H:\Mir3 Source\Mir3Korea\WindHorn\WHWindow.cpp"
+"H:\Mir3 Source\Mir3Korea\WindHorn\D3DCommon\d3dmath.cpp"
+"H:\Mir3 Source\Mir3Korea\WindHorn\D3DCommon\d3dutil.cpp"
+"H:\Mir3 Source\Mir3Korea\WindHorn\D3DCommon\ddutil.cpp"
+"H:\Mir3 Source\Mir3Korea\WindHorn\D3DCommon\getdxver.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSP28.tmp" 
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSP29.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /FR"WindHorn___Win32_Test_Debug/" /Fp"WindHorn___Win32_Test_Debug/WindHorn.pch" /Yc"stdafx.h" /Fo"WindHorn___Win32_Test_Debug/" /Fd"WindHorn___Win32_Test_Debug/" /FD /GZ /c 
+"H:\Mir3 Source\Mir3Korea\WindHorn\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSP29.tmp" 
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSP2A.tmp" with contents
+[
+/nologo /out:"WindHorn___Win32_Test_Debug\WindHorn.lib" 
+".\WindHorn___Win32_Test_Debug\RegHandler.obj"
+".\WindHorn___Win32_Test_Debug\StdAfx.obj"
+".\WindHorn___Win32_Test_Debug\WHDefProcess.obj"
+".\WindHorn___Win32_Test_Debug\WHDXGraphic.obj"
+".\WindHorn___Win32_Test_Debug\WHImage.obj"
+".\WindHorn___Win32_Test_Debug\WHSurface.obj"
+".\WindHorn___Win32_Test_Debug\WHWilImage.obj"
+".\WindHorn___Win32_Test_Debug\WHWilTexture.obj"
+".\WindHorn___Win32_Test_Debug\WHWindow.obj"
+".\WindHorn___Win32_Test_Debug\d3dmath.obj"
+".\WindHorn___Win32_Test_Debug\d3dutil.obj"
+".\WindHorn___Win32_Test_Debug\ddutil.obj"
+".\WindHorn___Win32_Test_Debug\getdxver.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\User\LOCALS~1\Temp\RSP2A.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+RegHandler.cpp
+WHDefProcess.cpp
+WHDXGraphic.cpp
+WHImage.cpp
+WHSurface.cpp
+WHWilImage.cpp
+WHWilTexture.cpp
+WHWindow.cpp
+d3dmath.cpp
+d3dutil.cpp
+ddutil.cpp
+getdxver.cpp
+Generating Code...
+c:\dxsdk\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Creating library...
+
+
+
+<h3>Results</h3>
+WindHorn.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

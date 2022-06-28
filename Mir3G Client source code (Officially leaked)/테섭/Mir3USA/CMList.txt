@@ -1,0 +1,970 @@
+;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+;<--- Comment.
+;Usage ---> #Message number(space, or tab)message .
+;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+;Game Start.
+;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+;Mir3Ex.cpp
+#0 Do you want to run the Mir3 Demo program?
+#1 Do you want to run the Mir3 Demo program next time?
+#2 Mir3Patch.exe file was not found. If you don't have the file, no patch can be downloaded.
+#3 Auto-Patch can not be performed.
+#4 You could be exposed to key hacking programs due to the failure of executing the key security program. You may run the game but we recommend you to contact the customer support center for inquiry.
+#5 Security program failed to be loaded. Do you want to continue without the security program?
+#6 Security program failed to be loaded.
+
+
+;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+;Login, Server selection.
+;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+;LoginProc.cpp
+#100 For 
+#101 Age 15+ 
+#102 Your account for the game service will be expired today.
+#103 Your account for the game service will be expired after %d days. 	
+#104 Your IP address for the game service will be expired after %d days.
+#105 Your IP address for the game service will be expired today.
+#106 Your IP address for the game service will be expired after %d hours.
+#107 Your ID for the game service will be expired after %d hours.
+#108 The account(ID) does not exist. 
+#109 Incorrect password.
+#110 Three consecutive incorrect passwords. Please try again little later.
+#111 The game service for you has been expired. Please contact (http:@@www.legendofmir3.co.kr) for the extension.
+#112 The account(ID) does not exist. 
+#113 Incorrect password.
+#114 Three consecutive incorrect passwords. Please try again little later.
+#115 The game service for you has been expired. Please contact (http:@@www.legendofmir3.co.kr) for the extension.
+#116 Your account currently can not be used. Please try again little later.
+#117 Your account is currently blocked. Please contact on-line customer support(http:@@www.legendofmir3.co.kr).
+#118 The account(ID) can only be used after real name registration.
+#119 An unknown error has occured. Contact http:@@www.legendofmir3.co.kr.
+#120
+#121 You are disconnected from the server.
+#122 You can not connect to the game due to incorrect personal detail you registerd. 
+#123 The server is under maintenance.
+#124 Incorrect SSN.
+#125 Users below 15 years of age is prohibited to play this game.  
+
+
+;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+;Character Selection.
+;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+;ChrProc.cpp
+#200 Character information is being loaded. Please wait a second.
+#201 Select Warrior class
+#202 Select Sorcerer class
+#203 Select Taoist class 
+#204 Confirm 
+#205 Cancel 
+#206 Name
+#207 Level
+#208 Class   Warrior
+#209 Class   Sorcerer
+#210 Class   Taoist
+#211 [ Male
+#212 [ Female
+#213  Warrior ]
+#214  Sorcerer ]
+#215  Taoist ]
+#216 Warriors are good at close combat due to their superior resilience and power. They can learn various forms of martial art ranging from basic swordsmanship to special sword art like¡°Half Moon¡±and they become truly formidable when their destructive power and skills get combined at later stage. Although they are vulnerable against ranged attack, they are easy to control and reach high levels faster than the other classes thus making the class more suitable for the beginners.  
+#217 Sorcerers can cast colorful array of magic spells so they are interesting and fun to play with. They can hit enemy regardless of terrain but they have limited close combat capability due to their weak physical strength. Because of their characteristics, they suffer much during early stage when they have no magic spell to cast but as their levels get higher, they can be truly powerful with their impressive magic spells. Sorcerers have to check the supply of their potion all the time so they can be difficult for beginners to play with.  
+#218 Taoists are the disciples of Taoism. They are also quite good at martial art though not as good as warriors. Their study on life and death is advanced so they have profound knowledge of medicine and internal flow of human energy. That's why they can use "healing" as one of their primary skills while they can produce several types of lethal poison. Inexperienced users will have hard time mastering how to play as a Taoist. However, Taoists are well balanced either in offence and defense and also have fairly decent ranged-attack and close combat capability so they are all-round characters. 
+#219 You must create a character to start.
+#220 Character information can not be acquired.
+#221 The game can not start
+#222 You are disconnected from the server
+#223 Character string is too long. 
+#224 This character name already exists.
+#225 Wrong character name.
+#226 You can not create more than 2 characters.
+#227 There is an error in character deletion.
+#228 Once a character is deleted, it can never be retrieved and the same name character can not be created for a while. If you want to delete your character, please enter your account password and then press "yes" button.
+#230 You should create a new character first. If you select <NEW>, you can create a new character. 
+#231 You have no more character left to delete. 
+#232 An unknown error has occured. Contact http:@@www.legendofmir3.co.kr.
+#234 This name has been registered already. Please insert a name again.
+#235 You should change the character name. Please insert a new name.
+#236 This is the new character class appeared to save Mir continent. They could be powerful and resilient as warriors, sensitive and skillful as sorcerers or disciplined and mentally strong as Taoists. They are also talented at direct attack and indirect support. Not so much information about these illusive people has been revealed yet because their existence has remained secret for long.
+#237 [          ]
+
+;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+;Game Part.
+;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+;Actor.cpp
+#1000 You have no enough MP.
+
+;Common
+#1050 Gold
+#1051 You can use it little later. 
+#1052 Close
+#1053 Accuracy
+#1054 Agility
+#1055 MR
+#1056 PR
+#1057 PN
+#1058 HPR
+#1059 MPR
+#1060 AC
+#1061 DC
+#1062 MP
+#1063 WWeight 
+#1064 HCWeight
+#1065 Do you want to log out?
+#1066 No item left on belt %d.
+#1067 %s is already on the belt. 
+#1068 %s is assigned on belt %d.
+#1069 Already assigned on the belt.
+#1070 @denywhisper
+#1071 @noguildmsg  
+#1072 @intercept
+#1073 @noshout
+#1074 Times New Roman
+#1075 Courier New
+#1076 Arial
+
+;BeltWnd.cpp
+#1100 Rotate
+
+;ChatPopWnd.cpp
+#1200 Block messages from specific character(@intercept character name)
+#1201 Shouting(!contents)
+#1202 Group talk(!!contents)
+#1203 Guild talk(!~contents)
+#1204 Block 1:1 talk(@denywhisper)
+#1205 Block guild message(@noguildmsg)
+
+;ExchangeWnd.cpp 
+#1300 Exchange
+#1301
+#1302 The amount is already selected. 
+#1303 Exchange is being requested 
+#1304 How much money do you want to transfer?
+#1305 You can not make a exchange request while your mouse is on top of the items being traded.
+#1306 You can not select the items inside the exchange window.
+#1307 How many items do you want to put on the exchange window?
+
+;GameProc.cpp
+#1400 You are being connected to the server.
+#1401 Please wait a second
+#1402 
+#1403 (Undead)
+#1404 (Mortal)
+#1405 AC
+#1406 MR
+#1407 You can not disconnect while you are in combat. 
+#1408 Siege area
+#1409 Night
+#1410 Security program failed to be loaded.
+#1411 Game will exit. 
+#1412 The game version is not compatible. 
+#1413
+#1414 The contents could not be understood. 
+#1415 How much money do you want to drop? 
+#1416 How many will you drop?
+#1417 You can not have no more.
+#1418 @mounthorse
+#1419 @hidehorse
+#1420 Monster status window is displayed. 
+#1421 Monster status window is not displayed. 
+#1422 @attackmode
+#1423 @rest
+#1424 This function is not supported yet.
+#1425 @addmember
+#1426 Type the name of the character you want to add to %s guild.
+#1427 This is the function that only guild master can use. If you are a guild master, please press guild window button.
+#1428 @callhorse
+#1429 Found.
+#1430 Security program is abnormally terminated. 
+#1431 Connection or System is unstable. Please check your system. 
+#1432 The quest log is modified.
+#1433 New quest is started.
+#1434 Trade is cancelled. A trade should be done while you and your counterpart look each other. 
+#1435 %s item is added to your exchange list.
+#1436 %s item is deleted from the exchange list.
+#1437 All the items are sold. 
+#1438 You can not carry any more. 
+#1439 Not enough gold.
+#1440 The item is made well.
+#1441 An error has occured.
+#1442 You can not carry any more. 
+#1443 Not enough gold.
+#1444 Not enough material.
+#1445 Can't be found.
+#1446 You can not carry any more.
+#1447 %s item  stored (number: %d).
+#1448 %s item is stored.
+#1449 Your personal storage has reached its limit. You can not store any more. 
+#1450 You can not store. 
+#1451 %d each
+#1452 %d gold
+#1453 %s is sold.
+#1454 %s item sold (number: %d).
+#1455 This item can not be sold.
+#1456 Repaired.
+#1457 This item can not be repaired.
+#1458 No map to display.
+#1459 You received %d experience and %d weapon skill point.
+#1460 You received %d experience.
+#1461 %s item obtained (number:%d).
+#1462 Weapon level raised.
+#1463 Chestnut obtained.
+#1464 %s item used.
+#1465 %s item obtained.
+#1466 %s item disappeared.
+#1467 %s item left  (number: %d).
+#1468 %s item not left.  
+#1469 Level is raised.
+#1470 Durability of %s is dropped to zero. 
+#1471 %d gold acquired.
+#1472 The door is locked. 
+#1473 You did not join any guild.
+#1474 You've just joined a guild.
+#1475 You are not authorized to use the command. 
+#1476 A person, who wants to join a guild, must stand before the guild master.
+#1477 You are already a member of the guild. 
+#1478 You are already a member of other guild. 
+#1479 You've been rejected. 
+#1480 Not your guild member. 
+#1481 A guild master can not ban him/herself. 
+#1482 The command can not be executed. 
+#1483 [modification error] No existing guild master
+#1484 [modification error] Guild master title is empty. 
+#1485 [modification error] Guild masters can not exceed more than two. 
+#1486 [modification error] At least one modified guild master should be in connection.
+#1487 [modification error] you can not add or delete guild members.
+#1488 [modification error] Titles are either redundant or wrong. 
+#1489 You are not authorized for this.
+#1490 Alliance failed. 
+#1491 You must stand before the guild master you want to offer alliance. 
+#1492 The guild master has not agreed to make the alliance. 
+#1493 Not allied with the guild. 
+#1494 Not existing guild. 
+#1495 Already joined the group. 
+#1496 Wrong name for the group making. 
+#1497 That person is trying to join an other guild. 
+#1498 That person is on group-reject status 
+#1499 The group has not been formed yet or you are not authorized.
+#1500 Wrong name for the joining the group. 
+#1501 You are already in the group. 
+#1502 The group has reached the maximum number. 
+#1503 Not a member of your group.
+#1504 The guild has been formed. 
+#1505 You are already the member of the guild.
+#1506 Not enough registration fee. 
+#1507 You don't have all the necessary items.
+#1508 IP fixed hours connection.
+#1509 IP fixed amount connection. 
+#1510 Personal fixed hours connection. 
+#1511 Personal fixed amount connection. 
+#1512 Connection to the server is not stable. The game will be closed. 
+#1513 Weapon refining is necessary for getting the weapon skill. 
+#1514 %d gold were used.
+#1515 Force Attack Mode
+#1516 Normal Attack Mode
+#1517 Magic graphic effect off
+#1518 Magic graphic effect on
+#1519 The picture is successfuly uploaded.
+#1520 EXP
+#1521 Weapon EXP
+#1522 Hour
+#1523 Minute
+#1524 Second
+#1525 Number of remaining %s( %d)
+#1526 Do you want to drop %s ?
+#1527 The durability of your item has been used. Durability of %s : %d
+#1528 BloodLust
+#1529 Resilience
+#1530 MagicProtection
+#1531 MR(Ignis)
+#1533 MR(Gelu)
+#1534 MR(Fulmen)
+#1535 MR(Ventus)
+#1536 MR(Sacer)
+#1537 MR(Ater)
+#1538 ElementalSuperiority
+#1539 Attack Element(Ignis)
+#1540 Attack Element(Gelu)
+#1541 Attack Element(Fulmen)
+#1542 Attack Element(Ventus)
+#1543 Attack Element(Sacer)
+#1544 Attack Element(Ater)
+#1545 Damage Increased
+#1546 M(Nature) Increased
+#1547 M(Soul) Increased
+#1548 Speed Increased
+#1549 HP Increased
+#1550 MP Increased
+#1551 Renounce
+#1552 SuperiorRenounce
+#1553 Defiance
+#1554 GreatEmission
+#1555 ReflectDamage
+#1556 AdamantineEndure
+#1557 Might
+#1558 SelfMultiply
+#1559 AutoLightningBolt
+
+;GroupWnd.cpp
+#1600 Group formation
+#1601 Add
+#1602 Delete
+#1603 [Allow]
+#1604 [Reject]
+#1605 Type the person's name you want to include to the group. 
+#1606 Type the person's name you want to ban from the group. 
+
+;InventoryWnd.cpp
+#1700
+#1701 [Bag]
+#1702 [Repair]
+#1703 [Sell]
+#1704 [Store]
+#1705 How many do you want to sell? 
+#1706 How many do you want to store? 
+#1707 %s item obtained (number: %d).
+#1708 No need to repair.
+#1709 Cur
+#1710 Max
+#1711 Map Book
+
+;Minimap.cpp
+#1800 Transparent 
+#1801 Zoom in
+#1802 Opaque
+#1803 zoom out
+
+;UtilWnd.cpp(only Taiwan)
+#1820 HPPotion(S)
+#1821 HPPotion(M)
+#1822 HPPotion(L)
+#1823 HPPotion(XL)
+#1824 HPPotion(XXL)
+#1825 LifePill(S)
+#1826 LifePill(M)
+#1827 LifePill(L)
+#1828 LifePill(XL)
+#1829 LifePill(XXL)
+#1830 MPPotion(S)
+#1831 MPPotion(M)
+#1832 MPPotion(L)
+#1833 MPPotion(XL)
+#1834 MPPotion(XXL)
+#1835 MagicPill(S)
+#1836 MagicPill(M)
+#1837 MagicPill(L)
+#1838 MagicPill(XL)
+#1839 MagicPill(XXL)
+#1860 GreyPoison(S)
+#1861 GreyPoison(M)
+#1862 GreyPoison(L)
+#1870 YellowPoison(S)
+#1871 YellowPoison(M)
+#1872 YellowPoison(L)
+#1890 A
+#1891 S
+#1892 M
+#1893 L
+#1894 Small
+#1895 Medium
+#1896 Large
+
+;NoticeEditWnd.cpp
+#1900 Rank modification 
+#1901 Guild member's ranks and positions are modified. 
+#1902 *Warning: guild member add/delete can not be done.
+#1903 Notice modification.
+#1904 [Guild notice is modified.]
+#1905 [Guild member's ranks and positions are modified. *Warning: guild member add/delete can not be done]
+
+;NPCWnd.cpp
+#2000 Type the name of the guild you want to create.(recommended within 15 letters)
+#2001 Insert 
+
+;OptionWnd.cpp
+#2100 B    G    M
+#2101 Sound Effects
+#2102 Right<->Left(Sound) 
+#2103 Bright Shadow 
+#2104 [ Option Adjustment Window ]
+#2105 Minimap Monster Display 
+#2106 Forced Attack Mode
+#2107 Magic Graphic Effect Display
+#2108 HP Change Display  
+#2109 Resurrection Allowed 
+#2110 HEUS SET Allowed
+#2111 Exchange Allowed  
+#2112 Whispering Allowed 
+#2113 Guild Message Allowed 
+#2114 Guild Joining Allowed 
+#2115 Shouting Allowed 
+#2116 Attack Mode(All)
+#2117 Attack Mode(Peaceful) 
+#2118 Attack Mode(Group) 
+#2119 Attack Mode(Guild) 
+#2120 Attack Mode(Good vs. Evil) 
+#2121 HP change not displayed.
+#2122 HP change displayed. 
+#2123 @denyrevival
+#2124 @denyrecall
+#2125 @denytrade
+#2126 @denywhisper
+#2127 @noguildmsg
+#2128 @joinguild
+#2129 @noshout
+#2130 Display Avatar
+#2131 Don't display other characters' avatars.
+#2132 Display other characters' avatars.
+#2133 Automatic picking off
+#2134 Automatic picking on
+#2135 Don't display name of a dropped item
+#2136 Display name of a dropped item
+#2137 Hide Monster HP 
+#2138 Display Monster HP
+#2139 Automatic picking
+#2140 Name of the dropped item
+#2141 Display HP
+#2142 Monster Effect Display 
+#2143 Dyed Hair Display
+#2144 Helmet Display
+#2145 @showhelmet
+#2146 Permit Group Invitation
+#2147 [permit other person to join the group]
+#2148 [disapprove other person to join the group]
+#2149 Basic
+#2150 Permit
+#2151 Chatting
+#2152 Visual
+#2153 [ BGM On ]
+#2154 [ BGM Off ]
+#2155 [ Effect On ]
+#2156 [ Effect Off ]
+#2157 [ Permit Group Invitation ]
+#2158 [ Block Group Invitation ]
+#2159 HP Gauge Display
+#2160 Block Whispering From Certain User
+#2161 Please insert the name of the user you wish to block(The block will be cancelled, if you insert the name again)
+#2162 @intercept
+#2163 @NoGeneralShout
+#2164 AcceptGeneralShout
+
+;QuestWnd.cpp
+#2200 detailed
+
+;StoreWnd.cpp
+#2300 (%d gold)
+#2301 How many do you want to get back?
+#2302 How many do you want to buy?
+
+;StatusWns.cpp
+#2400 Level
+#2401 EXP
+#2402 WWeight 
+#2403 HCWeight 
+#2404 BWeight
+#2405 Skill points 
+#2406 Element destruction
+#2407 M(Nature)
+#2408 M(Soul)  
+#2409 MR(Nature) 
+#2410 MR(Soul) 
+#2411 MP
+#2412 MR
+#2413 This item can not be used.
+
+;Item.cpp
+#2500 Durability 
+#2501 Weight
+#2502 Comfort
+#2503 Number
+#2504 Strength
+#2505 Velocity
+#2506 Luck
+#2507 Curse
+#2508 Weapon level
+#2509 Weapon skill point
+#2510 *Chestnut
+#2511 Used
+#2512 Quality
+#2513 Medicine
+#2514 Purity
+#2515 *
+#2516 Rare Item
+#2517 Quality Item
+#2518 HP
+#2519 MP
+#2520 Required Fame : %d
+#2521 Own Item
+#2522 HP&MP increased : %d level
+#2523 Critical increased : %d level
+#2524 Attack Speed increased : %d level
+#2525 GreyPoison Effect : %d level
+#2526 YellowPoison Effect : %d level
+#2527 HP steal Effect : %d level
+#2528 protection ability : %d level
+#2529 paralysis ability : %d level
+#2530 BulletProof ability : %d level
+
+;Interface.cpp
+#2600 Exchange window(Ctrl+C, C)
+#2601 Mini map(Ctrl+V, V)
+#2602 Martial art/Magic key window(Ctrl+B, B)
+#2603 Game Exit(Alt+Q)
+#2604 Log out(Alt+X)
+#2605 Group(Ctrl+G, G)
+#2606 Guild(Ctrl+F, F)
+#2607 Martial art/Magic window(Ctrl+E, E)
+#2608 Mir Quest Book(Ctrl+D, D)
+#2609 Option window(Ctrl+N, N)
+#2610 Help window(not supported yet)
+#2611 
+#2612 Bag window(Ctrl+W, W)
+#2613 Status window(Ctrl+Q, Q)
+#2614 Chatting pop up(Ctrl+R, R)
+#2615 Belt window(Ctrl+Z, Z)
+#2616 Block messages from specific character(@intercept character name)
+#2617 Shouting
+#2618 Group chatting mode on
+#2619 Guild chatting mode on
+#2620 All 1:1 message blocked(@denywhisper)
+#2621 All guild message blocked(@noguildmsg)
+#2622 (HP)
+#2623 (MP)
+#2624 (Experience)
+#2625 (Weight)
+#2626 Alter chatting mode -> Normal mode
+#2627 Alter chatting mode -> Group mode 
+#2628 Alter chatting mode -> Guild mode 
+#2629 Alter chatting mode -> Shouting mode 
+#2630 Guild chatting mode off 
+#2631 Group chatting mode off 
+#2632 Shouting mode off
+#2633 Alter chatting mode -> Group mode(To return to normal mode, please press group button again)
+#2634 Alter chatting mode -> Shouting mode(To return to normal mode, lease press shout button again)
+#2635 Alter chatting mode -> Guild mode(To return to normal mode, please press guild button again)
+#2636 Do you want to exit the program? 
+#2637 Deny 1:1 talk 
+#2638 Allow 1:1 talk 
+#2639 Block guild message
+#2640 Allow guild message 
+#2641 Hard Gloves
+#2642 Gloves
+#2643 Block shouting
+#2644 Allow shouting 
+#2645 Catapult Window(Ctrl+P, P)
+#2646 Display monsters & characters on the minimap.
+#2647 Do not Display monsters & characters on the minimap.
+#2648 Automatic Picking Function(On)
+#2649 Automatic Picking Function(Off)
+#2650 @diary
+#2651 Warrior
+#2652 Sorcerer
+#2653 Taoist
+
+;GameoverWnd.cpp
+#3500 Exit the program?
+#3501 Logout
+#3502 Exit
+
+;GuildWnd.cpp
+#4000 Only guild master is authorized for this.
+#4001 Insert the guild member's name you want to ban.
+#4002 Insert the name of the guild you want to break alliance. 
+#4003 [Guild member adding command: @addmember] Only guild master can use the command.
+#4004 * Notice
+#4005 * Enemy guild
+#4006 * Allied guild
+#4007 * Guild memeber list
+#4008 Guild chatting 
+#4009 Guild member list
+#4010 Notice
+#4011 Notice modification
+#4012 Ban guild member
+#4013 Guild dissolution(not supported yet) 
+#4014 Title alteration 
+#4015 Cancel Alliance 
+#4016 Break Alliance  
+#4017 Please press the guild member list button first. 
+#4018 @ally
+#4020 '*' character can not be used for a title.
+#4021 GML
+#4022 NM
+#4023 BGM
+#4024 GC
+#4025 TA
+#4026 CA
+#4027 GD
+
+;HorseWnd.cpp
+#4100 Mount 
+#4101 Dismount 
+#4102 Hide
+#4103 Place
+#4104 @mounthorse
+#4105 @callhorse
+#4106 @hidehorse
+
+;StorageWnd.cpp
+#4200 You stored a chestnut.
+	
+;SiegeWnd.cpp
+#4300 Attack
+#4301 Standby
+#4302 Move
+#4303 Out of range
+#4304 How many do you want to load?
+
+;Market.cpp
+#4400 Cancel Registration
+#4401 Item Purchase 
+#4402 Item Registration
+#4403 Search by item name
+#4404 Search by item owner
+#4405 Refresh
+#4406 Next page
+#4407 Previous page
+#4408 [ Item purchase ]
+#4409 server
+#4410 Item name
+#4411 Price
+#4412 Seller
+#4413 Not enough money.
+#4414 Do you want to cancel the registration of the selected item?
+#4415 Do you want to purchase the selected item?
+
+
+;MarketUp.cpp
+#4500 Please set the price you want
+#4501 Cancel
+#4502 Register
+#4503 [Item Registration]
+#4504 Please place the item
+#4505 you want to register
+#4506 Do you want to register the item?
+
+;Messenger.cpp
+#4600 Delete
+#4601 Refresh
+#4602 Sent messages
+#4603 Send gifts
+#4604 Write messages
+#4605 Read messages
+#4606 Inbox
+#4607 Delete
+#4608 Next
+#4609 Previous
+#4610 Cancel
+#4611 Send
+#4612 Reply
+#4613 ..
+#4614 Please place money
+#4615 or item on here.
+#4616 How much do you want to send?
+#4617 Send gift
+#4618 Inbox
+#4619 Read messages
+#4620 Write messages
+#4621 Sent messages
+#4622 A new message has arrived
+
+;FaceImgUp.cpp
+#4700 Upload
+#4701 Initialize
+#4702 If you double-click the left section,
+#4703 you can see a file. Please copy the image 
+#4704 file(JPG format only) and paste it to the
+#4705 Mir3 folder. Press upload button to register
+#4706 the image for your public avatar.
+#4707 Other users can see your avatar only after
+#4708 you registered the image. After you register
+#4709 the image, you will see the image even when
+#4710 you logon from other PCs. If you want to hide
+#4711 the avatar, please press the initialize button,
+#4712 then the original given image will be shown again.
+#4713 (optimum size 82x94, max file size 4KB)
+#4714 The size of the image is too big(optimum size 82x94)
+#4715 Your picture is being uploaded.
+#4716 Incorrect JPG file.
+
+;UtilWnd.cpp
+#4800 Select HP Potion
+#4801 Select Sun Potion
+#4802 Select MP Potion
+#4803 Select Martial Art book
+#4804 Select Talisman
+#4805 Select Poison Powder
+#4806 Item usage setting
+#4807 Taoist setting
+#4808 Activation
+#4809 Item
+#4810 Value
+#4811 Priority
+#4812 How do you want to set the value?
+#4813 Please set the priority. (1~10)
+#4814 Please name the target character.
+#4815 Please set the priority value. (1~4)
+#4816 HPPotion
+#4817 HPPotion(M)
+#4818 HPPotion(L)
+#4819 HPPotion(XL)
+#4820 SunPotion
+#4821 SunPotion(M)
+#4822 MPPotion
+#4823 MPPotion(M)
+#4824 MPPotion(L)
+#4825 MPPotion(XL)
+#4826 RandomTeleport
+#4827 TownTeleport
+#4828 Talisman(S)
+#4829 Talisman(M)
+#4830 HolyTalisman(S)
+#4831 Talisman(Ignis)(S)
+#4832 Talisman(Gelu)(S)
+#4833 Talisman(Fulmen)(S)
+#4834 Talisman(Ventus)(S)
+#4835 GreyPoison(S)
+#4836 GreyPoison(M)
+#4837 YellowPoison(S)
+#4838 YellowPoison(M)
+#4839 Healing
+#4840 Target Char
+#4841 Keys
+#4842 PerpetuityGinseng
+#4843 Potion / Scroll
+#4844 Talisman / Healing
+#4845 DarkTalisman(S)
+#4846 DarkTalisman(M)
+#4847 HolyTalisman(M)
+#4848 HolyTalisman(L)
+#4849 LifePill(S)
+#4850 LifePill(M)
+#4851 LifePill(L)
+#4852 LifePill(XL)
+#4853 LifePill(XXL)
+#4854 MagicPill(S)
+#4855 MagicPill(M)
+#4856 MagicPill(L)
+#4857 MagicPill(XL)
+#4858 A
+#4859 S
+#4860 M
+#4861 L
+#4862 XL
+#4863 XXL
+#4864 Do not select
+#4865 Day
+#4866 Evening
+#4867 Night
+#4868 Dawn
+#4869 Display number
+#4880 Magic Duration
+#4881 Setting for Others
+#4882 Teleport
+#4883 Skill
+#4884 Type of Talisman
+#4885 Size
+#4886 Setting for others
+#4887 (
+#4888 )
+#4889 Character HP Display
+#4890 Teleport will be used again in 30 seconds if the hp is not turning back.
+
+
+;UtilWnd.cpp 
+
+#6000 Talisman
+#6001 FlameTalisman
+#6002 IceTalisman
+#6003 ThunderTalisman
+#6004 StormTalisman
+#6005 HolyTalisman
+#6006 SoulTalisman
+#6007 SoulTalisman
+#6008 GreyPoison
+#6009 YellowPoison
+#6010 AutoPoisoning
+
+;UtilWnd.cpp
+#6050 HPPotion
+#6051 LifePill
+#6052 PerpetuityGinseng
+#6060 TownTeleport
+#6061 DungeonEscapeScroll
+#6062 RandomTeleport
+#6070 MPPotion
+#6071 MagicPill
+#6080 Poisoning
+#6081 TaoExplosion
+#6082 MagicProtection
+#6083 Resilience
+#6084 TrapOctagon
+#6085 SummonSkeleton
+#6086 Invisibility
+#6087 MassInvisibility
+#6088 SummonShinsoo
+#6089 EvilSlayer
+#6090 GreatEvilSlayer
+#6091 Resurrection
+#6092 ElementalSuperiority
+#6093 BloodLust
+#6094 SummonJinSkeleton
+#6095 Purification
+#6096 CelestialLight
+#6097 GreaterTaoExplosion
+#6098 SuperPoisoning
+#6099 GreatAbsorption
+#6100 SummonDummy
+#6101 SuperiorResilience
+#6102 SuperiorInvisibility
+#6103 MassGreatEvilSlayer
+#6104 Transparency
+#6105 Interchange
+
+;ChatWnd.cpp
+#4870 Convert
+#4871 Hide
+#4872 Convert Mode
+#4873 Change size
+
+;ViewMiniMapWnd.cpp
+#4900 Zoom in 200% 
+#4901 Original size
+#4902 Zoom out 50%
+#4903 Zoom out 25%
+
+;UserStatusWnd.cpp
+#4930 Join the group 
+#4931 Send Whisper
+#4932 Send Message
+
+;SettingWnd.cpp
+#4950 Environment
+#4951 Chat
+#4952 Message
+#4953 Group
+#4954 Guild
+#4955 Photo
+#4956 Siege
+#4957 Exit
+#4958 automatic features
+
+;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+;Misc.
+;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+;CmdLineParser.cpp
+#10000 Currently the display adapter does not support 800 x 600, %dhz screen. [usable mode list for 800 x 600, 16bpp: %s]Would you like to run the basic screen mode(usually 60hz)?
+
+;GFun.cpp
+#5000 Speed : stopped
+#5001 Speed : slowest
+#5002 Speed : slower
+#5003 Speed : slow
+#5004 Speed : normal
+#5005 Speed : fast
+#5006 Speed : faster
+#5007 Speed : fastest
+#5010 Attack magic : Element(Non)
+#5011 Attack magic : Magic(All)
+#5012 Attack magic : Magic(Nature)
+#5013 Attack magic : Magic(Soul) 
+#5014 Attack magic : Element(Ignis)
+#5015 Attack magic : Element(Gelu)
+#5016 Attack magic : Element(Fulmen) 
+#5017 Attack magic : Element(Ventus)
+#5018 Attack magic : Element(Sacer)
+#5019 Attack magic : Element(Ater)
+#5020 Attack magic : Element(Phasma) 
+#5030 Taming impossible 
+#5031 Taming possible 
+#5040 Mortal
+#5041 Undead 
+#5050 Fire
+#5051 Cold
+#5052 Lightning
+#5053 Wind
+#5054 Holy
+#5055 Dark
+#5056 Phantom
+#5057 Non
+#5060 Magic registance : Element(Non)
+#5061 Magic registance : Magic(All)
+#5062 Magic registance : Magic(Nature)
+#5063 Magic registance : Magic(Soul) 
+#5064 Magic registance : Element(Ignis)
+#5065 Magic registance : Element(Gelu)
+#5066 Magic registance : Element(Fulmen) 
+#5067 Magic registance : Element(Ventus)
+#5068 Magic registance : Element(Sacer)
+#5069 Magic registance : Element(Ater)
+#5070 Magic registance : Element(Phasma) 
+#5080 Magic(All) registance
+#5081 Magic(Nature) registance 
+#5082 Magic(Soul) registance 
+#5083 Element(Ignis) registance
+#5084 Element(Gelu) registance 
+#5085 Element(Fulmen) registance 
+#5086 Element(Ventus) registance
+#5087 Element(Sacer) registance 
+#5088 Element(Ater) registance 
+#5089 Element(Phasma) registance 
+#5100 M-All  
+#5101 M-Nature 
+#5102 M-Soul  
+#5103 Element(Ignis) magic 
+#5104 Element(Gelu) magic 
+#5105 Element(Fulmen) magic 
+#5106 Element(Ventus) magic 
+#5107 Element(Sacer) magic 
+#5108 Element(Ater) magic 
+#5109 Element(Phasma) magic 
+#5120 Magic(All) 
+#5121 Element(Ignis) magic 
+#5122 Element(Gelu) magic 
+#5123 Element(Fulmen) magic 
+#5124 Element(Ventus) magic 
+#5125 Element(Sacer) magic 
+#5126 Element(Ater) magic 
+#5127 Element(Phasma) magic 
+#5130 Magic(All) registance 
+#5131 Element(Ignis) registance 
+#5132 Element(Gelu) registance 
+#5133 Element(Fulmen) registance 
+#5134 Element(Ventus) registance 
+#5135 Element(Sacer) registance 
+#5136 Element(Ater) registance 
+#5137 Element(Phasma) registance 
+#5140 Required level 
+#5141 Required DC 
+#5142 Required Magic power(MC)
+#5143 Required Magic power(SC)
+#5144 Required Magic power(All)
+#5145 Required MC(Ignis)
+#5146 Required MC(Gelu)
+#5147 Required MC(Fulmen)
+#5148 Required MC(Ventus)
+#5149 Required MC(Sacer)
+#5150 Required MC(Ater)
+#5151 Required MC(Phasma)
+#5160 Element(Non)
+#5161 Ignis(Fire)
+#5162 Gelu(Cold)
+#5163 Fulmen(Lightning)
+#5164 Ventus(Wind)
+#5165 Sacer(Holy)
+#5166 Ater(Dark)
+#5167 Phasma(Phantom)
+#5170 Martial art book 
+#5171 Sorcery spell book 
+#5172 Tao art book
+#5173 MC
+#5174 Magic(All)  
+#5175 SC 
+#5176 DC
+#5177 AC
+#5178 E(Att)
+#5179 E(Adv) 
+#5180 E(Dis)
+#5181 How many do you want to buy?
+#5182 None

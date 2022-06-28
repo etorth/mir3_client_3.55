@@ -1,0 +1,383 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WindHorn - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSP2BD.tmp" with contents
+[
+/nologo /ML /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/WindHorn.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\Mir3 Source\개발\Mir3USA\WindHorn\RegHandler.cpp"
+"H:\Mir3 Source\개발\Mir3USA\WindHorn\WHDefProcess.cpp"
+"H:\Mir3 Source\개발\Mir3USA\WindHorn\WHDXGraphic.cpp"
+"H:\Mir3 Source\개발\Mir3USA\WindHorn\WHImage.cpp"
+"H:\Mir3 Source\개발\Mir3USA\WindHorn\WHSurface.cpp"
+"H:\Mir3 Source\개발\Mir3USA\WindHorn\WHWilImage.cpp"
+"H:\Mir3 Source\개발\Mir3USA\WindHorn\WHWilTexture.cpp"
+"H:\Mir3 Source\개발\Mir3USA\WindHorn\WHWindow.cpp"
+"H:\Mir3 Source\개발\Mir3USA\WindHorn\D3DCommon\d3dmath.cpp"
+"H:\Mir3 Source\개발\Mir3USA\WindHorn\D3DCommon\d3dutil.cpp"
+"H:\Mir3 Source\개발\Mir3USA\WindHorn\D3DCommon\ddutil.cpp"
+"H:\Mir3 Source\개발\Mir3USA\WindHorn\D3DCommon\getdxver.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSP2BD.tmp" 
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSP2BE.tmp" with contents
+[
+/nologo /ML /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/WindHorn.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\Mir3 Source\개발\Mir3USA\WindHorn\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSP2BE.tmp" 
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSP2BF.tmp" with contents
+[
+/nologo /out:"Release\WindHorn.lib" 
+".\Release\RegHandler.obj"
+".\Release\StdAfx.obj"
+".\Release\WHDefProcess.obj"
+".\Release\WHDXGraphic.obj"
+".\Release\WHImage.obj"
+".\Release\WHSurface.obj"
+".\Release\WHWilImage.obj"
+".\Release\WHWilTexture.obj"
+".\Release\WHWindow.obj"
+".\Release\d3dmath.obj"
+".\Release\d3dutil.obj"
+".\Release\ddutil.obj"
+".\Release\getdxver.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\User\LOCALS~1\Temp\RSP2BF.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+RegHandler.cpp
+WHDefProcess.cpp
+WHDXGraphic.cpp
+WHImage.cpp
+WHSurface.cpp
+H:\Mir3 Source\개발\Mir3USA\WindHorn\WHSurface.cpp(143) : warning C4018: '<' : signed/unsigned mismatch
+WHWilImage.cpp
+WHWilTexture.cpp
+WHWindow.cpp
+d3dmath.cpp
+d3dutil.cpp
+ddutil.cpp
+getdxver.cpp
+Generating Code...
+C:\DXSDK\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Creating library...
+<h3>
+--------------------Configuration: Mir2Ex - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/Resource.res" /d "NDEBUG" "H:\Mir3 Source\개발\Mir3USA\Resource.rc"" 
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSP2C0.tmp" with contents
+[
+/nologo /MT /GX /O2 /I "./OrzLib" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/Mir2Ex.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\Mir3 Source\개발\Mir3USA\CmdLineParser.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GFun.cpp"
+"H:\Mir3 Source\개발\Mir3USA\Mir2Ex.cpp"
+"H:\Mir3 Source\개발\Mir3USA\LoginProcess\LoginProc.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\Actor.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\BeltWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\ChatPopWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\ChatWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\ClientSysMsg.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\ExchangeWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\FaceImgUp.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\GameBtn.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\GameMsgBox.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\GameOverWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\GameProc.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\GameWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\GroupWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\GuildWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\HorseWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\Interface.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\InventoryWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\Item.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\LightFog.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\Magic.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\MagicShortcutWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\MagicWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\MapHandler.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\Market.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\MarketUp.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\Messenger.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\MiniMap.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\MiniMapInSiege.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\NoticeEditWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\NPCWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\OptionWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\Particle.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\PathFinding.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\QuestWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\SettingWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\SiegeWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\SprDfn.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\StatusWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\StoreWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\UserStateWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\UtilWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\GameProcess\ViewMiniMapWnd.cpp"
+"H:\Mir3 Source\개발\Mir3USA\Common\ChatEditBox.cpp"
+"H:\Mir3 Source\개발\Mir3USA\Common\ClientSocket.cpp"
+"H:\Mir3 Source\개발\Mir3USA\Common\crypto.cpp"
+"H:\Mir3 Source\개발\Mir3USA\Common\DblList.cpp"
+"H:\Mir3 Source\개발\Mir3USA\Common\DLinkedList.cpp"
+"H:\Mir3 Source\개발\Mir3USA\Common\EnDecode.cpp"
+"H:\Mir3 Source\개발\Mir3USA\Common\ImageHandler.cpp"
+"H:\Mir3 Source\개발\Mir3USA\Common\ImageHandlerHelper.cpp"
+"H:\Mir3 Source\개발\Mir3USA\Common\Msg.cpp"
+"H:\Mir3 Source\개발\Mir3USA\Common\NoticeBox.cpp"
+"H:\Mir3 Source\개발\Mir3USA\OrzLib\prime.cpp"
+"H:\Mir3 Source\개발\Mir3USA\Common\Queue.cpp"
+"H:\Mir3 Source\개발\Mir3USA\Common\ScreenCapture.cpp"
+"H:\Mir3 Source\개발\Mir3USA\CharSelectProcess\ChrProc.cpp"
+"H:\Mir3 Source\개발\Mir3USA\Sound\BMMP3.cpp"
+"H:\Mir3 Source\개발\Mir3USA\Sound\DSound.cpp"
+"H:\Mir3 Source\개발\Mir3USA\Sound\SoundManager.cpp"
+"H:\Mir3 Source\개발\Mir3USA\Sound\WaveBuffer.cpp"
+"H:\Mir3 Source\개발\Mir3USA\AVI\Avi.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSP2C0.tmp" 
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSP2C1.tmp" with contents
+[
+/nologo /MT /GX /O2 /I "./OrzLib" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/Mir2Ex.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\Mir3 Source\개발\Mir3USA\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSP2C1.tmp" 
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSP2C2.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib NPGameLib.lib npkcrypt.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Mir3.pdb" /machine:I386 /nodefaultlib:"libcmt.lib" /out:"h:\Mir3\개발\Mir3UsaDev\Mir3.exe" 
+".\Release\CmdLineParser.obj"
+".\Release\GFun.obj"
+".\Release\Mir2Ex.obj"
+".\Release\StdAfx.obj"
+".\Release\LoginProc.obj"
+".\Release\Actor.obj"
+".\Release\BeltWnd.obj"
+".\Release\ChatPopWnd.obj"
+".\Release\ChatWnd.obj"
+".\Release\ClientSysMsg.obj"
+".\Release\ExchangeWnd.obj"
+".\Release\FaceImgUp.obj"
+".\Release\GameBtn.obj"
+".\Release\GameMsgBox.obj"
+".\Release\GameOverWnd.obj"
+".\Release\GameProc.obj"
+".\Release\GameWnd.obj"
+".\Release\GroupWnd.obj"
+".\Release\GuildWnd.obj"
+".\Release\HorseWnd.obj"
+".\Release\Interface.obj"
+".\Release\InventoryWnd.obj"
+".\Release\Item.obj"
+".\Release\LightFog.obj"
+".\Release\Magic.obj"
+".\Release\MagicShortcutWnd.obj"
+".\Release\MagicWnd.obj"
+".\Release\MapHandler.obj"
+".\Release\Market.obj"
+".\Release\MarketUp.obj"
+".\Release\Messenger.obj"
+".\Release\MiniMap.obj"
+".\Release\MiniMapInSiege.obj"
+".\Release\NoticeEditWnd.obj"
+".\Release\NPCWnd.obj"
+".\Release\OptionWnd.obj"
+".\Release\Particle.obj"
+".\Release\PathFinding.obj"
+".\Release\QuestWnd.obj"
+".\Release\SettingWnd.obj"
+".\Release\SiegeWnd.obj"
+".\Release\SprDfn.obj"
+".\Release\StatusWnd.obj"
+".\Release\StoreWnd.obj"
+".\Release\UserStateWnd.obj"
+".\Release\UtilWnd.obj"
+".\Release\ViewMiniMapWnd.obj"
+".\Release\ChatEditBox.obj"
+".\Release\ClientSocket.obj"
+".\Release\crypto.obj"
+".\Release\DblList.obj"
+".\Release\DLinkedList.obj"
+".\Release\EnDecode.obj"
+".\Release\ImageHandler.obj"
+".\Release\ImageHandlerHelper.obj"
+".\Release\Msg.obj"
+".\Release\NoticeBox.obj"
+".\Release\prime.obj"
+".\Release\Queue.obj"
+".\Release\ScreenCapture.obj"
+".\Release\ChrProc.obj"
+".\Release\BMMP3.obj"
+".\Release\DSound.obj"
+".\Release\SoundManager.obj"
+".\Release\WaveBuffer.obj"
+".\Release\Avi.obj"
+".\Release\Resource.res"
+".\WindHorn\Release\WindHorn.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSP2C2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CmdLineParser.cpp
+GFun.cpp
+Mir2Ex.cpp
+LoginProc.cpp
+Actor.cpp
+BeltWnd.cpp
+ChatPopWnd.cpp
+ChatWnd.cpp
+ClientSysMsg.cpp
+ExchangeWnd.cpp
+FaceImgUp.cpp
+GameBtn.cpp
+GameMsgBox.cpp
+GameOverWnd.cpp
+GameProc.cpp
+H:\Mir3 Source\개발\Mir3USA\GameProcess\GameProc.cpp(11777) : warning C4172: returning address of local variable or temporary
+GameWnd.cpp
+GroupWnd.cpp
+GuildWnd.cpp
+HorseWnd.cpp
+Interface.cpp
+Generating Code...
+Compiling...
+InventoryWnd.cpp
+Item.cpp
+LightFog.cpp
+Magic.cpp
+MagicShortcutWnd.cpp
+MagicWnd.cpp
+MapHandler.cpp
+Market.cpp
+MarketUp.cpp
+Messenger.cpp
+MiniMap.cpp
+MiniMapInSiege.cpp
+NoticeEditWnd.cpp
+NPCWnd.cpp
+OptionWnd.cpp
+Particle.cpp
+PathFinding.cpp
+QuestWnd.cpp
+SettingWnd.cpp
+SiegeWnd.cpp
+Generating Code...
+Compiling...
+SprDfn.cpp
+StatusWnd.cpp
+StoreWnd.cpp
+UserStateWnd.cpp
+UtilWnd.cpp
+ViewMiniMapWnd.cpp
+ChatEditBox.cpp
+ClientSocket.cpp
+crypto.cpp
+DblList.cpp
+DLinkedList.cpp
+EnDecode.cpp
+ImageHandler.cpp
+ImageHandlerHelper.cpp
+Msg.cpp
+NoticeBox.cpp
+prime.cpp
+Queue.cpp
+ScreenCapture.cpp
+ChrProc.cpp
+Generating Code...
+Compiling...
+BMMP3.cpp
+DSound.cpp
+SoundManager.cpp
+WaveBuffer.cpp
+Avi.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "npkcrypt.dll" discarded by /OPT:REF
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSP2C4.tmp" with contents
+[
+/nologo /o"Release/Mir2Ex.bsc" 
+".\Release\StdAfx.sbr"
+".\Release\CmdLineParser.sbr"
+".\Release\GFun.sbr"
+".\Release\Mir2Ex.sbr"
+".\Release\LoginProc.sbr"
+".\Release\Actor.sbr"
+".\Release\BeltWnd.sbr"
+".\Release\ChatPopWnd.sbr"
+".\Release\ChatWnd.sbr"
+".\Release\ClientSysMsg.sbr"
+".\Release\ExchangeWnd.sbr"
+".\Release\FaceImgUp.sbr"
+".\Release\GameBtn.sbr"
+".\Release\GameMsgBox.sbr"
+".\Release\GameOverWnd.sbr"
+".\Release\GameProc.sbr"
+".\Release\GameWnd.sbr"
+".\Release\GroupWnd.sbr"
+".\Release\GuildWnd.sbr"
+".\Release\HorseWnd.sbr"
+".\Release\Interface.sbr"
+".\Release\InventoryWnd.sbr"
+".\Release\Item.sbr"
+".\Release\LightFog.sbr"
+".\Release\Magic.sbr"
+".\Release\MagicShortcutWnd.sbr"
+".\Release\MagicWnd.sbr"
+".\Release\MapHandler.sbr"
+".\Release\Market.sbr"
+".\Release\MarketUp.sbr"
+".\Release\Messenger.sbr"
+".\Release\MiniMap.sbr"
+".\Release\MiniMapInSiege.sbr"
+".\Release\NoticeEditWnd.sbr"
+".\Release\NPCWnd.sbr"
+".\Release\OptionWnd.sbr"
+".\Release\Particle.sbr"
+".\Release\PathFinding.sbr"
+".\Release\QuestWnd.sbr"
+".\Release\SettingWnd.sbr"
+".\Release\SiegeWnd.sbr"
+".\Release\SprDfn.sbr"
+".\Release\StatusWnd.sbr"
+".\Release\StoreWnd.sbr"
+".\Release\UserStateWnd.sbr"
+".\Release\UtilWnd.sbr"
+".\Release\ViewMiniMapWnd.sbr"
+".\Release\ChatEditBox.sbr"
+".\Release\ClientSocket.sbr"
+".\Release\crypto.sbr"
+".\Release\DblList.sbr"
+".\Release\DLinkedList.sbr"
+".\Release\EnDecode.sbr"
+".\Release\ImageHandler.sbr"
+".\Release\ImageHandlerHelper.sbr"
+".\Release\Msg.sbr"
+".\Release\NoticeBox.sbr"
+".\Release\prime.sbr"
+".\Release\Queue.sbr"
+".\Release\ScreenCapture.sbr"
+".\Release\ChrProc.sbr"
+".\Release\BMMP3.sbr"
+".\Release\DSound.sbr"
+".\Release\SoundManager.sbr"
+".\Release\WaveBuffer.sbr"
+".\Release\Avi.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSP2C4.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Mir3.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
