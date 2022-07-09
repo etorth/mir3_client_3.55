@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b1b9da4f-c29d-4afe-ba68-9a25df1bfc7b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ffdc5aa0-63a7-47f5-b689-e489ac51ac39}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8797aee9-e8f5-4b88-adb1-bb0bf5a0b7a9}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="_Oranze Library">
+      <UniqueIdentifier>{c34f3b3b-764d-4948-ad69-25185762d4d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Oranze Library\_Modified for Precompiler">
+      <UniqueIdentifier>{c2f1b627-00f2-4a63-8dbd-4040eefcae8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Def">
+      <UniqueIdentifier>{fe402439-5933-4521-9c7d-a3427267ddf5}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConfigDlgFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Def\dbmgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBSvr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameGateSockMsg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GateCommSockMsg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GateInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalUserList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWndProc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Def\Misc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessDBMsg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessGateMsg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessServerMsg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerCommSockMsg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TableList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Def\_OrzEx\util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Def\_OrzEx\database.cpp">
+      <Filter>_Oranze Library\_Modified for Precompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Def\_OrzEx\error.cpp">
+      <Filter>_Oranze Library\_Modified for Precompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Def\_OrzEx\prime.cpp">
+      <Filter>_Oranze Library\_Modified for Precompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Def\_OrzEx\syncobj.cpp">
+      <Filter>_Oranze Library\_Modified for Precompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Def\EnDecode.cpp">
+      <Filter>Def</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Def\RegstryHandler.cpp">
+      <Filter>Def</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Def\ServerSockHandler.cpp">
+      <Filter>Def</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Def\_OrzEx\stringex.cpp">
+      <Filter>Def</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DBSvr.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Def\dbmgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBSvr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Def\EnDecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalUserList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Def\List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Def\Misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessDBMsg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Def\Protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Def\Queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Def\ServerSockHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Def\_OrzEx\stringex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TableList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Def\_OrzEx\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Def\_OrzEx\database.h">
+      <Filter>_Oranze Library\_Modified for Precompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Def\_OrzEx\error.h">
+      <Filter>_Oranze Library\_Modified for Precompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Def\_OrzEx\prime.h">
+      <Filter>_Oranze Library\_Modified for Precompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Def\_OrzEx\syncobj.h">
+      <Filter>_Oranze Library\_Modified for Precompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Oranze Library\bstree.h">
+      <Filter>_Oranze Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Oranze Library\fsa.h">
+      <Filter>_Oranze Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Oranze Library\indexmap.h">
+      <Filter>_Oranze Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Oranze Library\list.h">
+      <Filter>_Oranze Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Oranze Library\map.h">
+      <Filter>_Oranze Library</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Res\MIR2.ICO">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Res\toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

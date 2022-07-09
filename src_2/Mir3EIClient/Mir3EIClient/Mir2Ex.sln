@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mir2Ex", "Mir2Ex.vcxproj", "{3AAE248E-8886-0BC2-83AE-D61143C39223}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindHorn", "WindHorn\WindHorn.vcxproj", "{72CA1877-C14F-B331-8742-AC28929E9E16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AAE248E-8886-0BC2-83AE-D61143C39223}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3AAE248E-8886-0BC2-83AE-D61143C39223}.Release|Win32.ActiveCfg = Release|Win32
+		{72CA1877-C14F-B331-8742-AC28929E9E16}.Debug|Win32.ActiveCfg = Debug|Win32
+		{72CA1877-C14F-B331-8742-AC28929E9E16}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,173 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_TOOLBAR             BITMAP  DISCARDABLE     "res\\toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MIR2                ICON    DISCARDABLE     "Res\\MIR2.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&Service"
+    BEGIN
+        MENUITEM "&Start Service",              IDM_STARTSERVICE
+        MENUITEM "S&top Service",               IDM_STOPSERVICE, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Configuration",              IDM_CONFIG
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       40004
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CONFIGDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 187
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 142
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CONFIGDLG DIALOG DISCARDABLE  0, 0, 194, 149
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Game Gate Server Configuration"
+FONT 9, "±¼¸²"
+BEGIN
+    CONTROL         "IPAddress1",IDC_LOGINSVR_IP,"SysIPAddress32",WS_TABSTOP,
+                    57,78,90,11
+    EDITTEXT        IDC_LOGINSVR_PORT,57,92,28,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_LOCALPORT,104,35,28,14,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "OK",IDOK,66,128,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,137,128,50,14
+    LTEXT           "Address :",IDC_STATIC,21,80,35,8
+    GROUPBOX        "Game Server Information",IDC_STATIC,7,64,180,48
+    LTEXT           "Port :",IDC_STATIC,35,93,21,9
+    LTEXT           "Local Port :",IDC_STATIC,61,38,39,10
+    LTEXT           "Game Gate Server Index :",IDC_STATIC,15,19,85,8
+    EDITTEXT        IDC_SERVERINDEX,104,16,15,14,ES_AUTOHSCROLL | ES_NUMBER | 
+                    WS_DISABLED
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NOTWINNT            "You are not running a NT-Kernel based operating system. Please install Windows NT4/2000/XP/2003/Longhorn."
+    IDS_LVS_LABEL1          "Date"
+    IDS_LVS_LABEL2          "Time"
+    IDS_LVS_LABEL3          "Text"
+    IDS_STARTSERVICE        "Service Started."
+    IDS_STOPSERVICE         "Service Stopped."
+    IDS_CONNECT_LOGINSERVER "Connected to Login Server."
+    IDS_DISCONNECT_LOGINSERVER "Disconnected from Login Server."
+    IDS_PROGRAM_QUIT        "Are you sure you wish to close GameGate?"
+    IDS_PROGRAM_TITLE       "The Legend Of Mir 2 - GameGate"
+    IDS_CANT_CONNECT        "Unable to connect."
+    IDS_APPLY_RECONNECT     "Attempting to reconnect"
+    IDS_LOAD_ABUSIVE        "( %d ) abusive words Loaded."
+    IDS_LOADFAIL_ABUSIVE    "Cannot load Abusive.txt."
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

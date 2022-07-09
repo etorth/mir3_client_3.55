@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mir2Ex", "Mir2Ex.vcproj", "{AA5D3375-977F-4352-A7AE-2D5059E59866}"
+	ProjectSection(ProjectDependencies) = postProject
+		{212CA3F1-439C-43DF-BA06-2136A45B1A51} = {212CA3F1-439C-43DF-BA06-2136A45B1A51}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindHorn", "WindHorn\WindHorn.vcproj", "{212CA3F1-439C-43DF-BA06-2136A45B1A51}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{AA5D3375-977F-4352-A7AE-2D5059E59866}.Debug.ActiveCfg = Debug|Win32
+		{AA5D3375-977F-4352-A7AE-2D5059E59866}.Debug.Build.0 = Debug|Win32
+		{AA5D3375-977F-4352-A7AE-2D5059E59866}.Release.ActiveCfg = Release|Win32
+		{AA5D3375-977F-4352-A7AE-2D5059E59866}.Release.Build.0 = Release|Win32
+		{212CA3F1-439C-43DF-BA06-2136A45B1A51}.Debug.ActiveCfg = Debug|Win32
+		{212CA3F1-439C-43DF-BA06-2136A45B1A51}.Debug.Build.0 = Debug|Win32
+		{212CA3F1-439C-43DF-BA06-2136A45B1A51}.Release.ActiveCfg = Release|Win32
+		{212CA3F1-439C-43DF-BA06-2136A45B1A51}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

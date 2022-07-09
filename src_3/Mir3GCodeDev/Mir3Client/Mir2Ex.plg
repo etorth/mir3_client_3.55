@@ -1,0 +1,397 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WindHorn - Win32 Test Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSPE8.tmp" with contents
+[
+/nologo /ML /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"WindHorn___Win32_Test_Release/WindHorn.pch" /Yu"stdafx.h" /Fo"WindHorn___Win32_Test_Release/" /Fd"WindHorn___Win32_Test_Release/" /FD /c 
+"H:\Mir3 Source\Å×¼·\Mir3Korea\WindHorn\RegHandler.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\WindHorn\WHDefProcess.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\WindHorn\WHDXGraphic.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\WindHorn\WHImage.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\WindHorn\WHSurface.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\WindHorn\WHWilImage.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\WindHorn\WHWilTexture.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\WindHorn\WHWindow.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\WindHorn\D3DCommon\d3dmath.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\WindHorn\D3DCommon\d3dutil.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\WindHorn\D3DCommon\ddutil.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\WindHorn\D3DCommon\getdxver.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSPE8.tmp" 
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSPE9.tmp" with contents
+[
+/nologo /ML /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"WindHorn___Win32_Test_Release/WindHorn.pch" /Yc"stdafx.h" /Fo"WindHorn___Win32_Test_Release/" /Fd"WindHorn___Win32_Test_Release/" /FD /c 
+"H:\Mir3 Source\Å×¼·\Mir3Korea\WindHorn\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSPE9.tmp" 
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSPEA.tmp" with contents
+[
+/nologo /out:"WindHorn___Win32_Test_Release\WindHorn.lib" 
+".\WindHorn___Win32_Test_Release\RegHandler.obj"
+".\WindHorn___Win32_Test_Release\StdAfx.obj"
+".\WindHorn___Win32_Test_Release\WHDefProcess.obj"
+".\WindHorn___Win32_Test_Release\WHDXGraphic.obj"
+".\WindHorn___Win32_Test_Release\WHImage.obj"
+".\WindHorn___Win32_Test_Release\WHSurface.obj"
+".\WindHorn___Win32_Test_Release\WHWilImage.obj"
+".\WindHorn___Win32_Test_Release\WHWilTexture.obj"
+".\WindHorn___Win32_Test_Release\WHWindow.obj"
+".\WindHorn___Win32_Test_Release\d3dmath.obj"
+".\WindHorn___Win32_Test_Release\d3dutil.obj"
+".\WindHorn___Win32_Test_Release\ddutil.obj"
+".\WindHorn___Win32_Test_Release\getdxver.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\User\LOCALS~1\Temp\RSPEA.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+RegHandler.cpp
+WHDefProcess.cpp
+WHDXGraphic.cpp
+WHImage.cpp
+WHSurface.cpp
+WHWilImage.cpp
+WHWilTexture.cpp
+WHWindow.cpp
+d3dmath.cpp
+d3dutil.cpp
+ddutil.cpp
+getdxver.cpp
+Generating Code...
+C:\DXSDK\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Creating library...
+<h3>
+--------------------Configuration: Mir2Ex - Win32 Test Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Mir2Ex___Win32_Test_Release/Resource.res" /d "NDEBUG" "H:\Mir3 Source\Å×¼·\Mir3Korea\Resource.rc"" 
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSPEB.tmp" with contents
+[
+/nologo /ML /GX /O2 /I "./OrzLib" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_TEST_SERVER" /FR"Mir2Ex___Win32_Test_Release/" /Fp"Mir2Ex___Win32_Test_Release/Mir2Ex.pch" /Yu"stdafx.h" /Fo"Mir2Ex___Win32_Test_Release/" /Fd"Mir2Ex___Win32_Test_Release/" /FD /c 
+"H:\Mir3 Source\Å×¼·\Mir3Korea\CmdLineParser.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GFun.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\Mir2Ex.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\LoginProcess\LoginProc.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\Actor.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\BeltWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\ChatPopWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\ChatWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\ClientSysMsg.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\ExchangeWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\FaceImgUp.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\GameBtn.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\GameMsgBox.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\GameOverWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\GameProc.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\GameWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\GroupWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\GuildWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\HorseWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\Interface.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\InventoryWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\Item.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\LightFog.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\Magic.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\MagicShortcutWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\MagicWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\MapHandler.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\Market.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\MarketUp.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\Messenger.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\MiniMap.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\MiniMapInSiege.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\NoticeEditWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\NPCWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\OptionWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\Particle.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\PathFinding.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\QuestWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\SettingWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\SiegeWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\SprDfn.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\StatusWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\StoreWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\UserStateWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\UtilWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\GameProcess\ViewMiniMapWnd.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\Common\ChatEditBox.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\Common\ClientSocket.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\Common\crypto.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\Common\DblList.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\Common\DLinkedList.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\Common\EnDecode.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\Common\ImageHandler.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\Common\ImageHandlerHelper.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\Common\Msg.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\Common\NoticeBox.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\OrzLib\prime.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\Common\Queue.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\Common\ScreenCapture.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\CharSelectProcess\ChrProc.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\Sound\BMMP3.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\Sound\DSound.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\Sound\SoundManager.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\Sound\WaveBuffer.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\AVI\Avi.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\TestFolder\TestActor.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\TestFolder\TestMagic.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\TestFolder\TestSourceBackup.cpp"
+"H:\Mir3 Source\Å×¼·\Mir3Korea\TestFolder\TestWnd.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSPEB.tmp" 
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSPEC.tmp" with contents
+[
+/nologo /ML /GX /O2 /I "./OrzLib" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_TEST_SERVER" /FR"Mir2Ex___Win32_Test_Release/" /Fp"Mir2Ex___Win32_Test_Release/Mir2Ex.pch" /Yc"stdafx.h" /Fo"Mir2Ex___Win32_Test_Release/" /Fd"Mir2Ex___Win32_Test_Release/" /FD /c 
+"H:\Mir3 Source\Å×¼·\Mir3Korea\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSPEC.tmp" 
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSPED.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Mir2Ex___Win32_Test_Release/Mir3Test.pdb" /machine:I386 /nodefaultlib:"libcmt.lib" /out:"h:\Mir3\Å×¼·\Mir3KoreaTest\Mir3Test.exe" 
+".\Mir2Ex___Win32_Test_Release\CmdLineParser.obj"
+".\Mir2Ex___Win32_Test_Release\GFun.obj"
+".\Mir2Ex___Win32_Test_Release\Mir2Ex.obj"
+".\Mir2Ex___Win32_Test_Release\StdAfx.obj"
+".\Mir2Ex___Win32_Test_Release\LoginProc.obj"
+".\Mir2Ex___Win32_Test_Release\Actor.obj"
+".\Mir2Ex___Win32_Test_Release\BeltWnd.obj"
+".\Mir2Ex___Win32_Test_Release\ChatPopWnd.obj"
+".\Mir2Ex___Win32_Test_Release\ChatWnd.obj"
+".\Mir2Ex___Win32_Test_Release\ClientSysMsg.obj"
+".\Mir2Ex___Win32_Test_Release\ExchangeWnd.obj"
+".\Mir2Ex___Win32_Test_Release\FaceImgUp.obj"
+".\Mir2Ex___Win32_Test_Release\GameBtn.obj"
+".\Mir2Ex___Win32_Test_Release\GameMsgBox.obj"
+".\Mir2Ex___Win32_Test_Release\GameOverWnd.obj"
+".\Mir2Ex___Win32_Test_Release\GameProc.obj"
+".\Mir2Ex___Win32_Test_Release\GameWnd.obj"
+".\Mir2Ex___Win32_Test_Release\GroupWnd.obj"
+".\Mir2Ex___Win32_Test_Release\GuildWnd.obj"
+".\Mir2Ex___Win32_Test_Release\HorseWnd.obj"
+".\Mir2Ex___Win32_Test_Release\Interface.obj"
+".\Mir2Ex___Win32_Test_Release\InventoryWnd.obj"
+".\Mir2Ex___Win32_Test_Release\Item.obj"
+".\Mir2Ex___Win32_Test_Release\LightFog.obj"
+".\Mir2Ex___Win32_Test_Release\Magic.obj"
+".\Mir2Ex___Win32_Test_Release\MagicShortcutWnd.obj"
+".\Mir2Ex___Win32_Test_Release\MagicWnd.obj"
+".\Mir2Ex___Win32_Test_Release\MapHandler.obj"
+".\Mir2Ex___Win32_Test_Release\Market.obj"
+".\Mir2Ex___Win32_Test_Release\MarketUp.obj"
+".\Mir2Ex___Win32_Test_Release\Messenger.obj"
+".\Mir2Ex___Win32_Test_Release\MiniMap.obj"
+".\Mir2Ex___Win32_Test_Release\MiniMapInSiege.obj"
+".\Mir2Ex___Win32_Test_Release\NoticeEditWnd.obj"
+".\Mir2Ex___Win32_Test_Release\NPCWnd.obj"
+".\Mir2Ex___Win32_Test_Release\OptionWnd.obj"
+".\Mir2Ex___Win32_Test_Release\Particle.obj"
+".\Mir2Ex___Win32_Test_Release\PathFinding.obj"
+".\Mir2Ex___Win32_Test_Release\QuestWnd.obj"
+".\Mir2Ex___Win32_Test_Release\SettingWnd.obj"
+".\Mir2Ex___Win32_Test_Release\SiegeWnd.obj"
+".\Mir2Ex___Win32_Test_Release\SprDfn.obj"
+".\Mir2Ex___Win32_Test_Release\StatusWnd.obj"
+".\Mir2Ex___Win32_Test_Release\StoreWnd.obj"
+".\Mir2Ex___Win32_Test_Release\UserStateWnd.obj"
+".\Mir2Ex___Win32_Test_Release\UtilWnd.obj"
+".\Mir2Ex___Win32_Test_Release\ViewMiniMapWnd.obj"
+".\Mir2Ex___Win32_Test_Release\ChatEditBox.obj"
+".\Mir2Ex___Win32_Test_Release\ClientSocket.obj"
+".\Mir2Ex___Win32_Test_Release\crypto.obj"
+".\Mir2Ex___Win32_Test_Release\DblList.obj"
+".\Mir2Ex___Win32_Test_Release\DLinkedList.obj"
+".\Mir2Ex___Win32_Test_Release\EnDecode.obj"
+".\Mir2Ex___Win32_Test_Release\ImageHandler.obj"
+".\Mir2Ex___Win32_Test_Release\ImageHandlerHelper.obj"
+".\Mir2Ex___Win32_Test_Release\Msg.obj"
+".\Mir2Ex___Win32_Test_Release\NoticeBox.obj"
+".\Mir2Ex___Win32_Test_Release\prime.obj"
+".\Mir2Ex___Win32_Test_Release\Queue.obj"
+".\Mir2Ex___Win32_Test_Release\ScreenCapture.obj"
+".\Mir2Ex___Win32_Test_Release\ChrProc.obj"
+".\Mir2Ex___Win32_Test_Release\BMMP3.obj"
+".\Mir2Ex___Win32_Test_Release\DSound.obj"
+".\Mir2Ex___Win32_Test_Release\SoundManager.obj"
+".\Mir2Ex___Win32_Test_Release\WaveBuffer.obj"
+".\Mir2Ex___Win32_Test_Release\Avi.obj"
+".\Mir2Ex___Win32_Test_Release\TestActor.obj"
+".\Mir2Ex___Win32_Test_Release\TestMagic.obj"
+".\Mir2Ex___Win32_Test_Release\TestSourceBackup.obj"
+".\Mir2Ex___Win32_Test_Release\TestWnd.obj"
+".\Mir2Ex___Win32_Test_Release\Resource.res"
+".\WindHorn\WindHorn___Win32_Test_Release\WindHorn.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSPED.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CmdLineParser.cpp
+GFun.cpp
+Mir2Ex.cpp
+LoginProc.cpp
+Actor.cpp
+BeltWnd.cpp
+ChatPopWnd.cpp
+ChatWnd.cpp
+ClientSysMsg.cpp
+ExchangeWnd.cpp
+FaceImgUp.cpp
+GameBtn.cpp
+GameMsgBox.cpp
+GameOverWnd.cpp
+GameProc.cpp
+GameWnd.cpp
+GroupWnd.cpp
+GuildWnd.cpp
+HorseWnd.cpp
+Interface.cpp
+Generating Code...
+Compiling...
+InventoryWnd.cpp
+Item.cpp
+LightFog.cpp
+Magic.cpp
+MagicShortcutWnd.cpp
+MagicWnd.cpp
+MapHandler.cpp
+Market.cpp
+MarketUp.cpp
+Messenger.cpp
+MiniMap.cpp
+MiniMapInSiege.cpp
+NoticeEditWnd.cpp
+NPCWnd.cpp
+OptionWnd.cpp
+Particle.cpp
+PathFinding.cpp
+QuestWnd.cpp
+SettingWnd.cpp
+SiegeWnd.cpp
+Generating Code...
+Compiling...
+SprDfn.cpp
+StatusWnd.cpp
+StoreWnd.cpp
+UserStateWnd.cpp
+UtilWnd.cpp
+ViewMiniMapWnd.cpp
+ChatEditBox.cpp
+ClientSocket.cpp
+crypto.cpp
+DblList.cpp
+DLinkedList.cpp
+EnDecode.cpp
+ImageHandler.cpp
+ImageHandlerHelper.cpp
+Msg.cpp
+NoticeBox.cpp
+prime.cpp
+Queue.cpp
+ScreenCapture.cpp
+ChrProc.cpp
+Generating Code...
+Compiling...
+BMMP3.cpp
+DSound.cpp
+SoundManager.cpp
+WaveBuffer.cpp
+Avi.cpp
+TestActor.cpp
+TestMagic.cpp
+TestSourceBackup.cpp
+TestWnd.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "ADVAPI32.dll" discarded by /OPT:REF
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSPEF.tmp" with contents
+[
+/nologo /o"Mir2Ex___Win32_Test_Release/Mir2Ex.bsc" 
+".\Mir2Ex___Win32_Test_Release\StdAfx.sbr"
+".\Mir2Ex___Win32_Test_Release\CmdLineParser.sbr"
+".\Mir2Ex___Win32_Test_Release\GFun.sbr"
+".\Mir2Ex___Win32_Test_Release\Mir2Ex.sbr"
+".\Mir2Ex___Win32_Test_Release\LoginProc.sbr"
+".\Mir2Ex___Win32_Test_Release\Actor.sbr"
+".\Mir2Ex___Win32_Test_Release\BeltWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\ChatPopWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\ChatWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\ClientSysMsg.sbr"
+".\Mir2Ex___Win32_Test_Release\ExchangeWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\FaceImgUp.sbr"
+".\Mir2Ex___Win32_Test_Release\GameBtn.sbr"
+".\Mir2Ex___Win32_Test_Release\GameMsgBox.sbr"
+".\Mir2Ex___Win32_Test_Release\GameOverWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\GameProc.sbr"
+".\Mir2Ex___Win32_Test_Release\GameWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\GroupWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\GuildWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\HorseWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\Interface.sbr"
+".\Mir2Ex___Win32_Test_Release\InventoryWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\Item.sbr"
+".\Mir2Ex___Win32_Test_Release\LightFog.sbr"
+".\Mir2Ex___Win32_Test_Release\Magic.sbr"
+".\Mir2Ex___Win32_Test_Release\MagicShortcutWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\MagicWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\MapHandler.sbr"
+".\Mir2Ex___Win32_Test_Release\Market.sbr"
+".\Mir2Ex___Win32_Test_Release\MarketUp.sbr"
+".\Mir2Ex___Win32_Test_Release\Messenger.sbr"
+".\Mir2Ex___Win32_Test_Release\MiniMap.sbr"
+".\Mir2Ex___Win32_Test_Release\MiniMapInSiege.sbr"
+".\Mir2Ex___Win32_Test_Release\NoticeEditWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\NPCWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\OptionWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\Particle.sbr"
+".\Mir2Ex___Win32_Test_Release\PathFinding.sbr"
+".\Mir2Ex___Win32_Test_Release\QuestWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\SettingWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\SiegeWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\SprDfn.sbr"
+".\Mir2Ex___Win32_Test_Release\StatusWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\StoreWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\UserStateWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\UtilWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\ViewMiniMapWnd.sbr"
+".\Mir2Ex___Win32_Test_Release\ChatEditBox.sbr"
+".\Mir2Ex___Win32_Test_Release\ClientSocket.sbr"
+".\Mir2Ex___Win32_Test_Release\crypto.sbr"
+".\Mir2Ex___Win32_Test_Release\DblList.sbr"
+".\Mir2Ex___Win32_Test_Release\DLinkedList.sbr"
+".\Mir2Ex___Win32_Test_Release\EnDecode.sbr"
+".\Mir2Ex___Win32_Test_Release\ImageHandler.sbr"
+".\Mir2Ex___Win32_Test_Release\ImageHandlerHelper.sbr"
+".\Mir2Ex___Win32_Test_Release\Msg.sbr"
+".\Mir2Ex___Win32_Test_Release\NoticeBox.sbr"
+".\Mir2Ex___Win32_Test_Release\prime.sbr"
+".\Mir2Ex___Win32_Test_Release\Queue.sbr"
+".\Mir2Ex___Win32_Test_Release\ScreenCapture.sbr"
+".\Mir2Ex___Win32_Test_Release\ChrProc.sbr"
+".\Mir2Ex___Win32_Test_Release\BMMP3.sbr"
+".\Mir2Ex___Win32_Test_Release\DSound.sbr"
+".\Mir2Ex___Win32_Test_Release\SoundManager.sbr"
+".\Mir2Ex___Win32_Test_Release\WaveBuffer.sbr"
+".\Mir2Ex___Win32_Test_Release\Avi.sbr"
+".\Mir2Ex___Win32_Test_Release\TestActor.sbr"
+".\Mir2Ex___Win32_Test_Release\TestMagic.sbr"
+".\Mir2Ex___Win32_Test_Release\TestSourceBackup.sbr"
+".\Mir2Ex___Win32_Test_Release\TestWnd.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSPEF.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Mir3Test.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

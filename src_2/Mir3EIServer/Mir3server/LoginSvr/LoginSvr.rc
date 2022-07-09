@@ -1,0 +1,223 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MIR2                ICON    DISCARDABLE     ".\\Res\\MIR2.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_TOOLBAR             BITMAP  DISCARDABLE     ".\\Res\\toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CONFIGDLG DIALOG DISCARDABLE  0, 0, 151, 123
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Login Server Configuration"
+FONT 9, "굴림"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,38,17,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,79,75,50,14
+END
+
+IDD_CONFIGDLG_SERVERLIST DIALOGEX 0, 0, 271, 159
+STYLE DS_3DLOOK | WS_CHILD | WS_VISIBLE | WS_CAPTION
+CAPTION "Server List"
+FONT 9, "굴림"
+BEGIN
+    CONTROL         "List1",IDC_SERVERINFO_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_EDITLABELS | WS_BORDER | WS_TABSTOP,7,7,257,115,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "&Add",IDC_SVRLIST_ADD,7,138,50,14
+    PUSHBUTTON      "&Remove",IDC_SVRLIST_REMOVE,214,138,50,14
+    PUSHBUTTON      "&Edit",IDC_SVRLIST_EDIT,107,138,50,14
+END
+
+IDD_SVRLIST_ADD DIALOG DISCARDABLE  0, 0, 239, 161
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add/Edit Gate Server"
+FONT 9, "Tahoma"
+BEGIN
+    EDITTEXT        IDC_TITLE,64,24,60,14,ES_AUTOHSCROLL
+    CONTROL         "IPAddress1",IDC_IPADDRESS1,"SysIPAddress32",WS_TABSTOP,
+                    64,44,100,15
+    CONTROL         "IPAddress2",IDC_IPADDRESS2,"SysIPAddress32",WS_TABSTOP,
+                    64,66,100,15
+    CONTROL         "IPAddress3",IDC_IPADDRESS3,"SysIPAddress32",WS_TABSTOP,
+                    64,88,100,15
+    DEFPUSHBUTTON   "&Add/Modify",IDOK,107,140,56,14
+    PUSHBUTTON      "Cancel",IDCANCEL,176,140,56,14
+    LTEXT           "Title :",IDC_STATIC,40,27,19,8
+    CTEXT           "IP Address : \n(Private)",IDC_STATIC,17,45,44,16
+    CTEXT           "IP Address :\n(Public)",IDC_STATIC,17,67,44,16
+    CTEXT           "IP Address :",IDC_STATIC,17,92,44,10
+    EDITTEXT        IDC_PORT,64,109,27,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Port :",IDC_STATIC,41,111,18,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CONFIGDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 144
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 116
+    END
+
+    IDD_CONFIGDLG_SERVERLIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 264
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_SVRLIST_ADD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 232
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&Service"
+    BEGIN
+        MENUITEM "&Start Service",              IDM_STARTSERVICE
+        MENUITEM "S&top Service",               IDM_STOPSERVICE, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Configuration",              IDM_CONFIG
+        MENUITEM "&Game Server Connection Status", IDM_SERVERSTAT
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NOTWINNT            "You are not running a NT-Kernel based operating system. Please install Windows NT4/2000/XP/2003/Longhorn."
+    IDS_LVS_LABEL1          "Date"
+    IDS_LVS_LABEL2          "Time"
+    IDS_LVS_LABEL3          "Message"
+    IDS_STARTSERVICE        "Service started"
+    IDS_STOPSERVICE         "Service stopped"
+    IDS_CONNECT_LOGINSERVER "Connected to login server."
+    IDS_DISCONNECT_LOGINSERVER "Disconnected from login server."
+    IDS_PROGRAM_QUIT        "Are you sure you wish to quit?"
+    IDS_PROGRAM_TITLE       "The Legend of Mir 2 - Login Server"
+    IDS_CANT_CONNECT        "Unable to connect."
+    IDS_CONFLVS_LABEL1      "Title"
+    IDS_CONFLVS_LABEL2      "Port"
+    IDS_CONFLVS_LABEL3      "IP Address"
+    IDS_CONFLVS_LABEL4      "Public IP Address"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CONFLVS_LABEL5      "Private IP address"
+    IDS_TAB_LABEL1          "서버 설정"
+    IDS_ACCEPT_GATESERVER   "(%s) Connection from gateserver accepted."
+    IDS_OPEN_USER           " (%s) User loaded."
+    IDS_CLOSE_USER          "(%s) User closed."
+    IDS_CONNECTDB           "Connected to database."
+    IDS_LOADACCOUNTRECORDS  "Account database loaded"
+    IDS_BOUNDACCOUNTRECORDS "%d 개의 사용자 계정 정보 레코드를 읽었습니다."
+    IDS_COMPLETENEWUSER     "ID [ %s ] New account record added."
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

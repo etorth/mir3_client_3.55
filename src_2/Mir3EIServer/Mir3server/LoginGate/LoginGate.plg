@@ -1,0 +1,93 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LoginGate - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"../_Obj_Debug/LoginGate/LoginGate.res" /d "_DEBUG" "E:\mirserver\LoginGate\LoginGate.rc"" 
+Creating temporary file "d:\tmp\RSP6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /FR"../_Obj_Debug/LoginGate/" /Fp"../_Obj_Debug/LoginGate/LoginGate.pch" /Yu"stdafx.h" /Fo"../_Obj_Debug/LoginGate/" /Fd"../_Obj_Debug/LoginGate/" /FD /GZ /c 
+"E:\mirserver\LoginGate\ClientSockMsg.cpp"
+"E:\mirserver\LoginGate\ConfigDlgFunc.cpp"
+"E:\mirserver\LoginGate\LoginGate.cpp"
+"E:\mirserver\LoginGate\MainWndProc.cpp"
+"E:\mirserver\Def\Misc.cpp"
+"E:\mirserver\Def\RegstryHandler.cpp"
+"E:\mirserver\Def\ServerSockHandler.cpp"
+"E:\mirserver\LoginGate\ServerSockMsg.cpp"
+"E:\mirserver\Def\_OrzEx\syncobj.cpp"
+"E:\mirserver\LoginGate\ThreadFuncForComm.cpp"
+"E:\mirserver\LoginGate\ThreadFuncForMsg.cpp"
+]
+Creating command line "cl.exe @d:\tmp\RSP6.tmp" 
+Creating temporary file "d:\tmp\RSP7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /FR"../_Obj_Debug/LoginGate/" /Fp"../_Obj_Debug/LoginGate/LoginGate.pch" /Yc"stdafx.h" /Fo"../_Obj_Debug/LoginGate/" /Fd"../_Obj_Debug/LoginGate/" /FD /GZ /c 
+"E:\mirserver\LoginGate\StdAfx.cpp"
+]
+Creating command line "cl.exe @d:\tmp\RSP7.tmp" 
+Creating temporary file "d:\tmp\RSP8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"../_Bin/Debug/LoginGate.pdb" /debug /machine:I386 /out:"../_Bin/Debug/LoginGate.exe" /pdbtype:sept 
+\mirserver\_Obj_Debug\LoginGate\ClientSockMsg.obj
+\mirserver\_Obj_Debug\LoginGate\ConfigDlgFunc.obj
+\mirserver\_Obj_Debug\LoginGate\LoginGate.obj
+\mirserver\_Obj_Debug\LoginGate\MainWndProc.obj
+\mirserver\_Obj_Debug\LoginGate\Misc.obj
+\mirserver\_Obj_Debug\LoginGate\RegstryHandler.obj
+\mirserver\_Obj_Debug\LoginGate\ServerSockHandler.obj
+\mirserver\_Obj_Debug\LoginGate\ServerSockMsg.obj
+\mirserver\_Obj_Debug\LoginGate\StdAfx.obj
+\mirserver\_Obj_Debug\LoginGate\syncobj.obj
+\mirserver\_Obj_Debug\LoginGate\ThreadFuncForComm.obj
+\mirserver\_Obj_Debug\LoginGate\ThreadFuncForMsg.obj
+\mirserver\_Obj_Debug\LoginGate\LoginGate.res
+]
+Creating command line "link.exe @d:\tmp\RSP8.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ClientSockMsg.cpp
+ConfigDlgFunc.cpp
+LoginGate.cpp
+MainWndProc.cpp
+Misc.cpp
+RegstryHandler.cpp
+ServerSockHandler.cpp
+ServerSockMsg.cpp
+syncobj.cpp
+ThreadFuncForComm.cpp
+ThreadFuncForMsg.cpp
+Generating Code...
+Linking...
+Creating temporary file "d:\tmp\RSPA.tmp" with contents
+[
+/nologo /o"../_Bin/Debug/LoginGate.bsc" 
+\mirserver\_Obj_Debug\LoginGate\StdAfx.sbr
+\mirserver\_Obj_Debug\LoginGate\ClientSockMsg.sbr
+\mirserver\_Obj_Debug\LoginGate\ConfigDlgFunc.sbr
+\mirserver\_Obj_Debug\LoginGate\LoginGate.sbr
+\mirserver\_Obj_Debug\LoginGate\MainWndProc.sbr
+\mirserver\_Obj_Debug\LoginGate\Misc.sbr
+\mirserver\_Obj_Debug\LoginGate\RegstryHandler.sbr
+\mirserver\_Obj_Debug\LoginGate\ServerSockHandler.sbr
+\mirserver\_Obj_Debug\LoginGate\ServerSockMsg.sbr
+\mirserver\_Obj_Debug\LoginGate\syncobj.sbr
+\mirserver\_Obj_Debug\LoginGate\ThreadFuncForComm.sbr
+\mirserver\_Obj_Debug\LoginGate\ThreadFuncForMsg.sbr]
+Creating command line "bscmake.exe @d:\tmp\RSPA.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+LoginGate.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

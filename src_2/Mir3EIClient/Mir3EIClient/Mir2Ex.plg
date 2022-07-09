@@ -1,0 +1,157 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Mir2Ex - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4E9.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Mir2Ex.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Works.Wemade\Mir2Ex.WithDelphi(마지막수정0531)\GameProcess\GameProc.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4E9.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4EA.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Mir2EI.pdb" /debug /machine:I386 /out:"C:\Mir2EI\Mir2EI.exe" /pdbtype:sept 
+".\Debug\GFun.obj"
+".\Debug\Mir2Ex.obj"
+".\Debug\StdAfx.obj"
+".\Debug\BMWnd.obj"
+".\Debug\Login.obj"
+".\Debug\LoginAvi.obj"
+".\Debug\LoginProcess.obj"
+".\Debug\NewAccount.obj"
+".\Debug\Patch.obj"
+".\Debug\SelectSrv.obj"
+".\Debug\Actor.obj"
+".\Debug\ChatPopWnd.obj"
+".\Debug\ClientSysMsg.obj"
+".\Debug\ExchangeWnd.obj"
+".\Debug\GameBtn.obj"
+".\Debug\GameProc.obj"
+".\Debug\GameWnd.obj"
+".\Debug\GroupPopWnd.obj"
+".\Debug\GroupWnd.obj"
+".\Debug\GuildMasterWnd.obj"
+".\Debug\GuildWnd.obj"
+".\Debug\HorseWnd.obj"
+".\Debug\Interface.obj"
+".\Debug\InventoryWnd.obj"
+".\Debug\Item.obj"
+".\Debug\LightFog.obj"
+".\Debug\Magic.obj"
+".\Debug\MapHandler.obj"
+".\Debug\NPCWnd.obj"
+".\Debug\OptionWnd.obj"
+".\Debug\Particle.obj"
+".\Debug\QuestWnd.obj"
+".\Debug\SprDfn.obj"
+".\Debug\StatusWnd.obj"
+".\Debug\StoreWnd.obj"
+".\Debug\WeatherEffect.obj"
+".\Debug\Button.obj"
+".\Debug\ChatEditBox.obj"
+".\Debug\ClientSocket.obj"
+".\Debug\DblList.obj"
+".\Debug\DLinkedList.obj"
+".\Debug\EnDecode.obj"
+".\Debug\ImageHandler.obj"
+".\Debug\MirButton.obj"
+".\Debug\MirMsgBox.obj"
+".\Debug\MirMsgBox3D.obj"
+".\Debug\MsgBox.obj"
+".\Debug\NoticeBox.obj"
+".\Debug\NPCTxtAnalysis.obj"
+".\Debug\Queue.obj"
+".\Debug\BackGround.obj"
+".\Debug\CharacterProcess.obj"
+".\Debug\CreateChr.obj"
+".\Debug\SelectChr.obj"
+".\Debug\BMMP3.obj"
+".\Debug\MirSound.obj"
+".\Debug\SBuffer.obj"
+".\Debug\Sound.obj"
+".\Debug\Avi.obj"
+".\Debug\Resource.res"
+".\WindHorn\Debug\WindHorn.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4EA.tmp"
+<h3>Output Window</h3>
+Compiling...
+GameProc.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4EB.tmp" with contents
+[
+/nologo /o"Debug/Mir2Ex.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\GFun.sbr"
+".\Debug\Mir2Ex.sbr"
+".\Debug\BMWnd.sbr"
+".\Debug\Login.sbr"
+".\Debug\LoginAvi.sbr"
+".\Debug\LoginProcess.sbr"
+".\Debug\NewAccount.sbr"
+".\Debug\Patch.sbr"
+".\Debug\SelectSrv.sbr"
+".\Debug\Actor.sbr"
+".\Debug\ChatPopWnd.sbr"
+".\Debug\ClientSysMsg.sbr"
+".\Debug\ExchangeWnd.sbr"
+".\Debug\GameBtn.sbr"
+".\Debug\GameProc.sbr"
+".\Debug\GameWnd.sbr"
+".\Debug\GroupPopWnd.sbr"
+".\Debug\GroupWnd.sbr"
+".\Debug\GuildMasterWnd.sbr"
+".\Debug\GuildWnd.sbr"
+".\Debug\HorseWnd.sbr"
+".\Debug\Interface.sbr"
+".\Debug\InventoryWnd.sbr"
+".\Debug\Item.sbr"
+".\Debug\LightFog.sbr"
+".\Debug\Magic.sbr"
+".\Debug\MapHandler.sbr"
+".\Debug\NPCWnd.sbr"
+".\Debug\OptionWnd.sbr"
+".\Debug\Particle.sbr"
+".\Debug\QuestWnd.sbr"
+".\Debug\SprDfn.sbr"
+".\Debug\StatusWnd.sbr"
+".\Debug\StoreWnd.sbr"
+".\Debug\WeatherEffect.sbr"
+".\Debug\Button.sbr"
+".\Debug\ChatEditBox.sbr"
+".\Debug\ClientSocket.sbr"
+".\Debug\DblList.sbr"
+".\Debug\DLinkedList.sbr"
+".\Debug\EnDecode.sbr"
+".\Debug\ImageHandler.sbr"
+".\Debug\MirButton.sbr"
+".\Debug\MirMsgBox.sbr"
+".\Debug\MirMsgBox3D.sbr"
+".\Debug\MsgBox.sbr"
+".\Debug\NoticeBox.sbr"
+".\Debug\NPCTxtAnalysis.sbr"
+".\Debug\Queue.sbr"
+".\Debug\BackGround.sbr"
+".\Debug\CharacterProcess.sbr"
+".\Debug\CreateChr.sbr"
+".\Debug\SelectChr.sbr"
+".\Debug\BMMP3.sbr"
+".\Debug\MirSound.sbr"
+".\Debug\SBuffer.sbr"
+".\Debug\Sound.sbr"
+".\Debug\Avi.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4EB.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Mir2EI.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

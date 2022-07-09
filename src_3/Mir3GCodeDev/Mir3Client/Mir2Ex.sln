@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mir2Ex", "Mir2Ex.vcproj", "{C7E4B49C-8AFA-4FCC-9841-7481108A1CE6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{887D059F-D1F7-484F-89BD-36BD62F68B40} = {887D059F-D1F7-484F-89BD-36BD62F68B40}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindHorn", "WindHorn\WindHorn.vcproj", "{887D059F-D1F7-484F-89BD-36BD62F68B40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Test Debug|Win32 = Test Debug|Win32
+		Test Release|Win32 = Test Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7E4B49C-8AFA-4FCC-9841-7481108A1CE6}.Debug|Win32.ActiveCfg = Test Debug|Win32
+		{C7E4B49C-8AFA-4FCC-9841-7481108A1CE6}.Debug|Win32.Build.0 = Test Debug|Win32
+		{C7E4B49C-8AFA-4FCC-9841-7481108A1CE6}.Release|Win32.ActiveCfg = Test Release|Win32
+		{C7E4B49C-8AFA-4FCC-9841-7481108A1CE6}.Release|Win32.Build.0 = Test Release|Win32
+		{C7E4B49C-8AFA-4FCC-9841-7481108A1CE6}.Test Debug|Win32.ActiveCfg = Test Debug|Win32
+		{C7E4B49C-8AFA-4FCC-9841-7481108A1CE6}.Test Debug|Win32.Build.0 = Test Debug|Win32
+		{C7E4B49C-8AFA-4FCC-9841-7481108A1CE6}.Test Release|Win32.ActiveCfg = Test Release|Win32
+		{C7E4B49C-8AFA-4FCC-9841-7481108A1CE6}.Test Release|Win32.Build.0 = Test Release|Win32
+		{887D059F-D1F7-484F-89BD-36BD62F68B40}.Debug|Win32.ActiveCfg = Debug|Win32
+		{887D059F-D1F7-484F-89BD-36BD62F68B40}.Debug|Win32.Build.0 = Debug|Win32
+		{887D059F-D1F7-484F-89BD-36BD62F68B40}.Release|Win32.ActiveCfg = Release|Win32
+		{887D059F-D1F7-484F-89BD-36BD62F68B40}.Release|Win32.Build.0 = Release|Win32
+		{887D059F-D1F7-484F-89BD-36BD62F68B40}.Test Debug|Win32.ActiveCfg = Test Debug|Win32
+		{887D059F-D1F7-484F-89BD-36BD62F68B40}.Test Debug|Win32.Build.0 = Test Debug|Win32
+		{887D059F-D1F7-484F-89BD-36BD62F68B40}.Test Release|Win32.ActiveCfg = Test Release|Win32
+		{887D059F-D1F7-484F-89BD-36BD62F68B40}.Test Release|Win32.Build.0 = Test Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

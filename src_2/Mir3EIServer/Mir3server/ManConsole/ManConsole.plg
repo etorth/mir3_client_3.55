@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ManConsole - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/ManConsole.res" /d "_DEBUG" /d "_AFXDLL" "E:\mirserver\ManConsole\ManConsole.rc"" 
+Creating temporary file "d:\tmp\RSP1B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ManConsole.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\mirserver\ManConsole\ConsoleSocket.cpp"
+"E:\mirserver\ManConsole\ManConsole.cpp"
+"E:\mirserver\ManConsole\ManConsoleDlg.cpp"
+]
+Creating command line "cl.exe @d:\tmp\RSP1B.tmp" 
+Creating temporary file "d:\tmp\RSP1C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ManConsole.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\mirserver\ManConsole\StdAfx.cpp"
+]
+Creating command line "cl.exe @d:\tmp\RSP1C.tmp" 
+Creating temporary file "d:\tmp\RSP1D.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ManConsole.pdb" /debug /machine:I386 /out:"Debug/ManConsole.exe" /pdbtype:sept 
+.\Debug\ConsoleSocket.obj
+.\Debug\ManConsole.obj
+.\Debug\ManConsoleDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\ManConsole.res
+]
+Creating command line "link.exe @d:\tmp\RSP1D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ConsoleSocket.cpp
+ManConsole.cpp
+ManConsoleDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ManConsole.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

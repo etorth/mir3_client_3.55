@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{994e1937-49c4-4a99-81a0-c13f46e27365}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d4305a97-9ec0-4950-9f1b-197687703f40}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{f81ee666-a6ae-420d-8620-412583b86571}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Login Process">
+      <UniqueIdentifier>{4b4bccc8-f1f5-4ab3-9e09-071a5b5eb8d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Process">
+      <UniqueIdentifier>{53bfbd32-27cd-4f1d-8951-11aac074e6ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Process\Header">
+      <UniqueIdentifier>{72f1e5f7-24a3-48fd-81c5-740ac5a95072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Process\Source">
+      <UniqueIdentifier>{6442395a-bce7-4b02-9b8c-529e8c412972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{94e4c85d-5db3-4884-b47d-e97947ee47cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chr Select Process">
+      <UniqueIdentifier>{f53b148a-c140-4704-96b8-940db18ab2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{42d58d1c-d4c3-495c-988a-d4b78f9e70aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Avi">
+      <UniqueIdentifier>{0438dfc7-3943-4b07-93dd-eaae0ac647c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TeamProcess">
+      <UniqueIdentifier>{ee300a3c-62e1-40b8-9b18-cd8fc0021cbc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GFun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mir2Ex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginProcess\Common\BMWnd.cpp">
+      <Filter>Login Process</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginProcess\Login\Login.cpp">
+      <Filter>Login Process</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginProcess\Intro\LoginAvi.cpp">
+      <Filter>Login Process</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginProcess\LoginProcess.cpp">
+      <Filter>Login Process</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginProcess\New Account\NewAccount.cpp">
+      <Filter>Login Process</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginProcess\Patch.cpp">
+      <Filter>Login Process</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginProcess\Select Srv\SelectSrv.cpp">
+      <Filter>Login Process</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\Actor.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\ChatPopWnd.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\ClientSysMsg.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\DecodeMessage.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\ExchangeWnd.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\GameBtn.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\GameProc.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\GameWnd.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\GroupPopWnd.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\GroupWnd.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\GuildMasterWnd.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\GuildWnd.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\HorseWnd.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\Interface.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\InventoryWnd.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\Item.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\LightFog.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\Magic.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\MapHandler.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\NPCWnd.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\OptionWnd.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\Particle.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\QuestWnd.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\SelectCharWnd.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\SprDfn.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\StatusWnd.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\StoreWnd.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess\WeatherEffect.cpp">
+      <Filter>Game Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Button.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CharSelectProcess\BackGround\BackGround.cpp">
+      <Filter>Chr Select Process</Filter>
+    </ClCompile>
+    <ClCompile Include="CharSelectProcess\CharacterProcess.cpp">
+      <Filter>Chr Select Process</Filter>
+    </ClCompile>
+    <ClCompile Include="CharSelectProcess\CreateChr\CreateChr.cpp">
+      <Filter>Chr Select Process</Filter>
+    </ClCompile>
+    <ClCompile Include="CharSelectProcess\SelectChr\SelectChr.cpp">
+      <Filter>Chr Select Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\BMMP3.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\MirSound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SBuffer.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\Sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="AVI\Avi.cpp">
+      <Filter>Avi</Filter>
+    </ClCompile>
+    <ClCompile Include="TeamProcess\TeamHero.cpp">
+      <Filter>TeamProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="TeamProcess\TeamManage.cpp">
+      <Filter>TeamProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="TeamProcess\TeamProc.cpp">
+      <Filter>TeamProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ChatEditBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ClientSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DblList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DLinkedList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\EnDecode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ImageHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MirButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MirMsgBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MirMsgBox3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MsgBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\NoticeBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\NPCTxtAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Queue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GFun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Typedeftxt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginProcess\Common\BMWnd.h">
+      <Filter>Login Process</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginProcess\Common\define.h">
+      <Filter>Login Process</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginProcess\Login\Login.h">
+      <Filter>Login Process</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginProcess\Intro\LoginAvi.h">
+      <Filter>Login Process</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginProcess\LoginProcess.h">
+      <Filter>Login Process</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginProcess\New Account\NewAccount.h">
+      <Filter>Login Process</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginProcess\Patch.h">
+      <Filter>Login Process</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginProcess\Select Srv\SelectSrv.h">
+      <Filter>Login Process</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginProcess\Common\typedef.h">
+      <Filter>Login Process</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\Actor.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\ChatPopWnd.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\ClientSysMsg.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\DecodeMessage.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\ExchangeWnd.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\GameBtn.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\GameProc.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\GameWnd.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\GroupPopWnd.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\GroupWnd.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\GuildMasterWnd.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\GuildWnd.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\HorseWnd.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\Interface.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\InventoryWnd.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\Item.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\LightFog.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\Magic.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\MapHandler.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\NPCWnd.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\OptionWnd.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\Particle.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\QuestWnd.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\SelectCharWnd.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\SprDfn.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\StatusWnd.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\StoreWnd.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess\WeatherEffect.h">
+      <Filter>Game Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CharSelectProcess\BackGround\BackGround.h">
+      <Filter>Chr Select Process</Filter>
+    </ClInclude>
+    <ClInclude Include="CharSelectProcess\CharacterProcess.h">
+      <Filter>Chr Select Process</Filter>
+    </ClInclude>
+    <ClInclude Include="CharSelectProcess\CreateChr\CreateChr.h">
+      <Filter>Chr Select Process</Filter>
+    </ClInclude>
+    <ClInclude Include="CharSelectProcess\Common\define.h">
+      <Filter>Chr Select Process</Filter>
+    </ClInclude>
+    <ClInclude Include="CharSelectProcess\SelectChr\SelectChr.h">
+      <Filter>Chr Select Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\BMMP3.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\MirSound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SBuffer.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\TypeDef.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="AVI\Avi.h">
+      <Filter>Avi</Filter>
+    </ClInclude>
+    <ClInclude Include="TeamProcess\TeamHero.h">
+      <Filter>TeamProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="TeamProcess\TeamManage.h">
+      <Filter>TeamProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="TeamProcess\TeamProc.h">
+      <Filter>TeamProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Button.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ChatEditBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ClientSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DblList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DLinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\EnDecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ImageHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MirButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MirMsgBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MirMsgBox3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MsgBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\NoticeBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\NPCTxtAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mir2Ex.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="GameProcess\MyEncode.asm">
+      <Filter>Game Process\Source</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

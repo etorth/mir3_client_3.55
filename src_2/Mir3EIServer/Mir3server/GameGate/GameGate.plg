@@ -1,0 +1,81 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GameGate - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"../_Obj_Debug/GameGate/GameGate.res" /d "_DEBUG" "E:\mirserver\GameGate\GameGate.rc"" 
+Creating temporary file "d:\tmp\RSP3D.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"../_Obj_Debug/GameGate/" /Fp"../_Obj_Debug/GameGate/GameGate.pch" /Yu"stdafx.h" /Fo"../_Obj_Debug/GameGate/" /Fd"../_Obj_Debug/GameGate/" /FD /GZ /c 
+"E:\mirserver\GameGate\Abusive.cpp"
+"E:\mirserver\GameGate\ClientSockMsg.cpp"
+"E:\mirserver\GameGate\ConfigDlgFunc.cpp"
+"E:\mirserver\Def\EnDecode.cpp"
+"E:\mirserver\GameGate\GameGate.cpp"
+"E:\mirserver\GameGate\MainWndProc.cpp"
+"E:\mirserver\Def\Misc.cpp"
+"E:\mirserver\Def\RegstryHandler.cpp"
+"E:\mirserver\Def\ServerSockHandler.cpp"
+"E:\mirserver\GameGate\ServerSockMsg.cpp"
+"E:\mirserver\Def\_OrzEx\syncobj.cpp"
+"E:\mirserver\GameGate\ThreadFuncForComm.cpp"
+"E:\mirserver\GameGate\ThreadFuncForMsg.cpp"
+]
+Creating command line "cl.exe @d:\tmp\RSP3D.tmp" 
+Creating temporary file "d:\tmp\RSP3E.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"../_Obj_Debug/GameGate/" /Fp"../_Obj_Debug/GameGate/GameGate.pch" /Yc"stdafx.h" /Fo"../_Obj_Debug/GameGate/" /Fd"../_Obj_Debug/GameGate/" /FD /GZ /c 
+"E:\mirserver\GameGate\StdAfx.cpp"
+]
+Creating command line "cl.exe @d:\tmp\RSP3E.tmp" 
+Creating temporary file "d:\tmp\RSP3F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"../_Bin/Debug/GameGate.pdb" /debug /machine:I386 /out:"../_Bin/Debug/GameGate.exe" /pdbtype:sept 
+\mirserver\_Obj_Debug\GameGate\Abusive.obj
+\mirserver\_Obj_Debug\GameGate\ClientSockMsg.obj
+\mirserver\_Obj_Debug\GameGate\ConfigDlgFunc.obj
+\mirserver\_Obj_Debug\GameGate\EnDecode.obj
+\mirserver\_Obj_Debug\GameGate\GameGate.obj
+\mirserver\_Obj_Debug\GameGate\MainWndProc.obj
+\mirserver\_Obj_Debug\GameGate\Misc.obj
+\mirserver\_Obj_Debug\GameGate\RegstryHandler.obj
+\mirserver\_Obj_Debug\GameGate\ServerSockHandler.obj
+\mirserver\_Obj_Debug\GameGate\ServerSockMsg.obj
+\mirserver\_Obj_Debug\GameGate\StdAfx.obj
+\mirserver\_Obj_Debug\GameGate\syncobj.obj
+\mirserver\_Obj_Debug\GameGate\ThreadFuncForComm.obj
+\mirserver\_Obj_Debug\GameGate\ThreadFuncForMsg.obj
+\mirserver\_Obj_Debug\GameGate\GameGate.res
+]
+Creating command line "link.exe @d:\tmp\RSP3F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Abusive.cpp
+ClientSockMsg.cpp
+ConfigDlgFunc.cpp
+EnDecode.cpp
+GameGate.cpp
+MainWndProc.cpp
+Misc.cpp
+RegstryHandler.cpp
+ServerSockHandler.cpp
+ServerSockMsg.cpp
+syncobj.cpp
+ThreadFuncForComm.cpp
+ThreadFuncForMsg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+GameGate.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
